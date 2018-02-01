@@ -28,8 +28,6 @@ function runSchedJob() {
 	while (psm.next()) {
 		var n = new GlideRecord('x_lahc_bldg_svc_wo_table');
 		n.initialize();
-		
-		// 		n.work_notes = "<<< PM Automatically Scheduled >>> ";
 		n.u_pm_generated = psm.pm_sched_no.u_maintenance_pm_number+" >>> "+psm.u_number;
 		n.u_asset_tag = psm.tag;
 		n.pm_procedure = psm.pm_sched_no.procedure;
@@ -38,30 +36,28 @@ function runSchedJob() {
 		n.u_requesting_building = psm.pm_sched_no.tag.u_site;
 		n.u_location_room = psm.pm_sched_no.tag.u_location;
 		
-		n.u_problem += psm.tag.asset_tag+"\r";
+		n.u_problem += psm.tag.asset_tag+" > "+ psm.tag.u_description+" >  "+psm.tag.u_equipment_type.description+"\r";
 		
-		n.u_problem += psm.pm_sched_no.pm_notes +"\r";
+		n.u_problem += " << Next Due in "+ psm.u_frequency +" "+ psm.u_time + " >> ";	
 		
-		
-		n.u_problem += psm.pm_sched_no.tag.u_equ_notes +"\r";
-		
-		
-		//  		n.u_problem += n.pm_procedure.procedure+" Automatically Scheduled and Assigned from PM Schedule No. " +psm.pm_sched_no.u_maintenance_pm_number+"\r" ;
-		
-		n.u_problem += "<< Next Due in "+ psm.u_frequency +" "+ psm.u_time + " >>";
-		
-		
-		
-		
+	
+		n.work_order_notes += n.pm_procedure.procedure+"r";
+		n.work_order_notes += " Automatically Scheduled and Assigned from PM Schedule No. " +psm.pm_sched_no.u_maintenance_pm_number+"\r" ;
+		n.work_order_notes += psm.pm_sched_no.pm_notes +"\r";
+				
+				
 		n.u_assignment_group = psm.pm_sched_no.assignment_group;
 		n.u_assigned_to = psm.pm_sched_no.assigned_to;
 		
-		
-		
+				
 		n.u_contact_type = 'Auto-generated';
+		
 		// n.short_description = psm.u_description+" for "+psm.tag.asset_tag;
 		n.short_description = "Auto-generated PM for "+psm.tag.asset_tag;
-		n.description= "Auto-generated PM for "+psm.tag.asset_tag;
+		
+// 		n.description= "Auto-generated PM for "+psm.tag.asset_tag;
+		
+		
 		var due_date_var = new GlideDateTime(psm.date_scheduled);
 		if(psm.u_frequency < 2 && psm.u_time == "D") {
 			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
@@ -142,7 +138,7 @@ function runSchedJob() {
         <sys_created_on>2017-03-16 17:19:55</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>8fac8d216f65360013dd8ebf2c3ee438</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>MM Scheduled Maintenance</sys_name>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
         <sys_policy/>
@@ -150,7 +146,7 @@ function runSchedJob() {
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysauto_script_8fac8d216f65360013dd8ebf2c3ee438</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-01-31 23:55:32</sys_updated_on>
+        <sys_updated_on>2018-02-01 14:29:51</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
