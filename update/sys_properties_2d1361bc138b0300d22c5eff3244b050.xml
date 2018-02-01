@@ -13,7 +13,7 @@
         <sys_created_on>2017-12-12 20:30:34</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>2d1361bc138b0300d22c5eff3244b050</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>glide.ui.x_lahc_bldg_svc_wo_table_activity.fields</sys_name>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
         <sys_policy/>
@@ -21,9 +21,9 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sys_properties_2d1361bc138b0300d22c5eff3244b050</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-01-16 04:01:31</sys_updated_on>
+        <sys_updated_on>2018-02-01 19:18:53</sys_updated_on>
         <type>string</type>
-        <value>comments,u_assigned_to,u_assignment_group,closed_at,closed_by,u_contact,contact_type,u_requesting_department,u_asset_tag,u_job_type,u_key_contact,u_labor,location,u_location_room,u_requested_for,u_requesting_building,u_wo_status,u_work_order_type</value>
+        <value>comments,closed_at,closed_by,u_contact,contact_type,u_requesting_department,u_asset_tag,u_job_type,u_key_contact,u_labor,location,u_location_room,u_requested_for,u_requesting_building,u_wo_status,u_work_order_type,assigned_to,assignment_group</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=2d1361bc138b0300d22c5eff3244b050"/>

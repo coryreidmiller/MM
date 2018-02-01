@@ -2,7 +2,7 @@
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id display_value="Maintenance HP" name="Maintenance HP">ef3009366f89320013dd8ebf2c3ee48e</group_id>
-        <report_id display_value="MMW My Open PMs">a943b5886f7f030013dd8ebf2c3ee430</report_id>
+        <report_id display_value="MMW My Open PMs Report">a943b5886f7f030013dd8ebf2c3ee430</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>CRMILLER</sys_created_by>
         <sys_created_on>2018-01-16 20:34:40</sys_created_on>

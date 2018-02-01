@@ -5,7 +5,7 @@
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Estimated Time" max_length="40" name="est_time" type="string"/>
         <element label="Frequency" max_length="40" name="frequency" type="string"/>
-        <element label="pm notes" max_length="1000" name="pm_notes" type="string"/>
+        <element label="Instructions (pm notes)" max_length="1000" name="pm_notes" type="string"/>
         <element label="Procedure" max_length="40" name="procedure" reference="x_lahc_bldg_svc_wo_pm_procedure" type="reference"/>
         <element label="Start Date" max_length="40" name="season_begin" type="glide_date"/>
         <element label="End Date" max_length="40" name="season_end" type="glide_date"/>
