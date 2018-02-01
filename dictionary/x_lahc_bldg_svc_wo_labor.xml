@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Maintenance Labor" max_length="40" name="x_lahc_bldg_svc_wo_labor" type="collection">
+        <element label="Action" mandatory="true" max_length="1000" name="details" type="string"/>
+        <element label="Hours" mandatory="true" max_length="40" name="hours" type="string"/>
+        <element label="Work Order Number" max_length="32" name="mwo" read_only="true" reference="x_lahc_bldg_svc_wo_table" type="reference"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Performed By" max_length="40" name="performed_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="50.00" label="Rate" mandatory="true" max_length="40" name="rate" type="string"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_contributions=task_show_ci_map,ref_ac_columns=sys_class_name;code,ref_ac_order_by=code,ref_ac_columns_search=true" label="Response" max_length="32" name="response" reference="x_lahc_bldg_svc_wo_response" type="reference"/>
+        <element label="Charge" max_length="40" name="total_cost" read_only="true" type="string"/>
+        <element choice="3" default="In House" label="Worker Type" max_length="40" name="type" reference="x_lahc_bldg_svc_wo_worker_type" type="reference">
+            <choice/>
+        </element>
+        <element label="Billable" max_length="40" name="u_billable_hours" type="boolean"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="u_date" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Job Type" max_length="40" name="u_job_type" read_only="true" reference="x_lahc_bldg_svc_wo_job_type" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Performed Date" mandatory="true" max_length="40" name="u_performed_date" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Sequence" max_length="40" name="u_sequence" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Worker" max_length="40" name="worker" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="mwo"/>
+        </index>
+        <index name="index2">
+            <element name="performed_by"/>
+        </index>
+        <index name="index3">
+            <element name="response"/>
+        </index>
+        <index name="index4">
+            <element name="type"/>
+        </index>
+        <index name="index5">
+            <element name="worker"/>
+        </index>
+    </element>
+</database>

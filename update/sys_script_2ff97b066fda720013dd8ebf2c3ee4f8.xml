@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_lahc_bldg_svc_wo_model_number</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition table="x_lahc_bldg_svc_wo_model_number">industry_changeVALCHANGES^ORno_manufacturer_supportVALCHANGES^ORparts_not_availableVALCHANGES^ORlife_expectancyVALCHANGES^EQ<item endquery="false" field="industry_change" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="no_manufacturer_support" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="parts_not_available" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="life_expectancy" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Go Update Vulnerabilities</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onAfter(current, previous) {
+
+var u_isc = 0;
+var u_ed = 0;
+var u_le = 0;
+var u_nms = 0;
+var u_pu = 0;
+var u_nlmun = 0;
+var total_score = 0;
+var u_lee;
+
+var gr_asset = new GlideRecord('x_lahc_bldg_svc_wo_asset');
+gr_asset.addQuery('u_model_number', current.sys_id);
+gr_asset.query();
+while(gr_asset.next()) {
+
+var date1 = new GlideDateTime(new GlideDate().getDisplayValue());
+var date2 = new GlideDateTime(gr_asset.u_in_service);
+date2.addYearsLocalTime(parseInt(current.life_expectancy));
+gs.info(date2);
+
+ var start = date1.getNumericValue();  
+ var end = date2.getNumericValue();
+if (start > end) { 
+
+gr_asset.u_lee = 'true';
+u_le = 20;	
+}
+else{
+gr_asset.u_lee = 'false';	
+}	
+gr_asset.u_nms = current.no_manufacturer_support;
+gr_asset.u_pu = current.parts_not_available;
+gr_asset.u_nlmun = current.industry_change;
+
+if(gr_asset.u_immediate_safety_concern){
+u_isc = 80;
+}
+if(gr_asset.u_excessive_downtime){
+u_ed = 20;
+}
+if(current.no_manufacturer_support){
+u_nms = 20;
+}
+if(current.parts_not_available){
+u_pu = 40;
+}
+if(current.industry_change){
+u_nlmun = 10;
+}
+total_score = u_nms + u_pu + u_nlmun + u_le + u_isc + u_ed;
+
+if (total_score > 60) {
+gr_asset.u_recommendation = '0ef086f513a96600d22c5eff3244b03b';  //Replace Immediately
+} else if ((total_score <= 60) && (total_score >= 40)) {
+gr_asset.u_recommendation = '0a01caf513a96600d22c5eff3244b032';  //Replace Next Fiscal Year
+} else if ((total_score < 40) && (total_score >= 20)){
+gr_asset.u_recommendation = '3d110ef513a96600d22c5eff3244b090';  //Replace within 5 years
+} else if (total_score < 20) {
+gr_asset.u_recommendation = '13218eb513a96600d22c5eff3244b089';  //Do not replace
+}
+
+gr_asset.u_isc_value = u_isc;
+gr_asset.u_ed_value = u_ed;
+gr_asset.u_lee_value = u_le;
+gr_asset.u_pu_value = u_pu;
+gr_asset.u_nms_value = u_nms;
+gr_asset.u_nlmun_value = u_nlmun;
+gr_asset.u_total_value = total_score.toFixed(0);
+
+gr_asset.update();
+gs.info('end script');
+}
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-04-25 01:49:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2ff97b066fda720013dd8ebf2c3ee4f8</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Go Update Vulnerabilities</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_script_2ff97b066fda720013dd8ebf2c3ee4f8</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-06-17 04:16:44</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

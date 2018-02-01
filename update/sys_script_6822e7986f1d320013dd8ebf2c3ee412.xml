@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_lahc_bldg_svc_wo_pm</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition table="x_lahc_bldg_svc_wo_pm">season_beginVALCHANGES^ORseason_endVALCHANGES^ORtimeVALCHANGES^ORtagVALCHANGES^ORu_maintenance_pm_numberVALCHANGES^ORfrequencyVALCHANGES^ORprocedureVALCHANGES^season_beginISNOTEMPTY^season_endISNOTEMPTY^EQ<item endquery="false" field="season_begin" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="season_end" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="time" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="tag" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="u_maintenance_pm_number" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="frequency" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="procedure" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="false" field="season_begin" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="season_end" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>MM PSM Date Generator</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onAfter(current, previous) {
+	//This function will be automatically called when this rule is processed.
+	//first remove all past records
+	
+	var rec = new GlideRecord('x_lahc_bldg_svc_wo_pm_dates');
+	rec.addQuery('pm_sched_no',current.sys_id);
+	rec.query();
+	while (rec.next()) {
+		rec.deleteRecord();
+	}
+	//gs.addInfoMessage("START PROCESS >>> RECORDS REMOVED");
+	// now go and add the dates
+	var end_date= new GlideDateTime(current.season_end+" 12:00:00");
+	var next_date = new GlideDateTime(current.season_begin+" 12:00:00");
+	//gs.addInfoMessage("Start ::: START = "+current.season_begin+" ::: END = "+current.season_end);
+	var dur = new GlideDuration();
+	var type = current.time;
+	var freq = current.frequency;
+	
+	
+	var start = next_date.getNumericValue();
+	var end = end_date.getNumericValue();
+	var diff = end - start;
+	
+	while( 0 <= diff) {
+		// gs.addInfoMessage("START LOOP = "+next_date+" ::: END = "+end_date+" Diff "+diff);
+		//	alert(diff+" "+ type+" "+freq);
+		if(type=="D" && freq=="1"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(1);
+		}
+		else if(type=="D" && freq=="2"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(2);
+		}
+		
+		else if(type=="D" && freq=="3"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(3);
+		}
+		else if(type=="D" && freq=="4"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(4);
+		}
+		else if(type=="D" && freq=="5"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(5);
+		}
+		else if(type=="D" && freq=="6"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(6);
+		}
+		else if(type=="D" && freq=="7"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(7);
+		}
+		else if(type=="D" && freq=="8"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(8);
+		}
+		else if(type=="D" && freq=="9"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(9);
+		}
+		else if(type=="D" && freq=="10"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(10);
+		}
+		else if(type=="D" && freq=="11"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(11);
+		}
+		else if(type=="D" && freq=="12"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(12);
+		}
+		else if(type=="D" && freq=="15"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(15);
+		}
+		else if(type=="D" && freq=="29"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(29);
+		}
+		else if(type=="D" && freq=="30"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(30);
+		}
+		else if(type=="D" && freq=="31"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addDaysLocalTime(31);
+		}
+// -------------------------------------------------------------------------		
+		else if(type=="W" && freq=="1"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(1);
+		}
+				else if(type=="W" && freq=="2"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(2);
+		}
+				else if(type=="W" && freq=="3"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(3);
+		}
+				else if(type=="W" && freq=="4"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(4);
+		}
+				else if(type=="W" && freq=="5"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(5);
+		}
+				else if(type=="W" && freq=="6"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(6);
+		}
+				else if(type=="W" && freq=="7"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(7);
+		}
+				else if(type=="W" && freq=="8"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(8);
+		}
+				else if(type=="W" && freq=="9"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(9);
+		}
+				else if(type=="W" && freq=="10"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(10);
+		}
+				else if(type=="W" && freq=="11"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(11);
+		}
+				else if(type=="W" && freq=="12"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addWeeksLocalTime(12);
+		}
+// -------------------------------------------------------------------------		
+		
+		else if(type=="M" && freq=="1"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(1);
+		}
+		else if(type=="M" && freq=="2"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(2);
+		}
+		
+		else if(type=="M" && freq=="3"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(3);
+		}
+		else if(type=="M" && freq=="4"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(4);
+		}
+		else if(type=="M" && freq=="5"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(5);
+		}
+		else if(type=="M" && freq=="6"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(6);
+		}
+		else if(type=="M" && freq=="7"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(7);
+		}
+		else if(type=="M" && freq=="8"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(8);
+		}
+		else if(type=="M" && freq=="9"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonths(9);
+		}
+		else if(type=="M" && freq=="10"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonths(10);
+		}
+		else if(type=="M" && freq=="11"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(11);
+		}
+		else if(type=="M" && freq=="12"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(12);
+		}
+		else if(type=="M" && freq=="24"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(24);
+		}
+		else if(type=="M" && freq=="36"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(36);
+		}
+		else if(type=="M" && freq=="48"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(48);
+		}
+		else if(type=="M" && freq=="60"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addMonthsLocalTime(60);
+		}
+		
+		else if(type=="Y" && freq=="1"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(1);
+		}
+		else if(type=="Y" && freq=="2"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(2);
+		}
+		else if(type=="Y" && freq=="3"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(3);
+		}
+		else if(type=="Y" && freq=="4"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(4);
+		}
+		else if(type=="Y" && freq=="5"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(5);
+		}
+		else if(type=="Y" && freq=="6"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(6);
+		}
+		else if(type=="Y" && freq=="7"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(7);
+		}
+		else if(type=="Y" && freq=="8"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(8);
+		}
+		else if(type=="Y" && freq=="9"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(9);
+		}
+		else if(type=="Y" && freq=="10"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(10);
+		}
+		else if(type=="Y" && freq=="11"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(11);
+		}
+		else if(type=="Y" && freq=="12"){
+			addPsmDate(current.sys_id, next_date);
+			next_date.addYearsLocalTime(12);
+		}
+		else{
+			break;
+		}
+		start = next_date.getNumericValue();
+		end = end_date.getNumericValue();
+		diff = end-start;
+		// gs.addInfoMessage("END LOOP"+diff+" "+start+end);
+	}
+}
+function addPsmDate(sys_id, date_passed){
+	
+	var n = new GlideRecord('x_lahc_bldg_svc_wo_pm_dates');
+	n.initialize();
+	n.pm_sched_no = sys_id;
+	n.date_scheduled = date_passed;
+	n.tag = current.tag;
+	n.u_frequency = current.frequency;
+	n.u_procedure = current.procedure;
+	n.u_time = current.time;
+	n.insert();
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-02-28 20:37:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6822e7986f1d320013dd8ebf2c3ee412</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>MM PSM Date Generator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_script_6822e7986f1d320013dd8ebf2c3ee412</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-03 14:24:27</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

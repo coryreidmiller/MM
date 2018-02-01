@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2018-02-01 01:19:05">
+    <sys_portal action="delete_multiple" query="page=b5e54bc1131e4300d22c5eff3244b053">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>0</offset>
+                <page display_value="Locksmith Work Order">b5e54bc1131e4300d22c5eff3244b053</page>
+                <summary/>
+                <sys_created_by>CRMILLER</sys_created_by>
+                <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                <sys_id>11074305131e4300d22c5eff3244b076</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>CRMILLER</sys_updated_by>
+                <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">11074305131e4300d22c5eff3244b076</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>15074305131e4300d22c5eff3244b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">11074305131e4300d22c5eff3244b076</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>51074305131e4300d22c5eff3244b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>cb26cf8d13da4300d22c5eff3244b0d6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">11074305131e4300d22c5eff3244b076</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>5d074305131e4300d22c5eff3244b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>b5e54bc1131e4300d22c5eff3244b053</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">11074305131e4300d22c5eff3244b076</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>99074305131e4300d22c5eff3244b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>content_block_iframe</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">11074305131e4300d22c5eff3244b076</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>d5074305131e4300d22c5eff3244b076</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>Locksmith Work Order</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Locksmith Work Order">b5e54bc1131e4300d22c5eff3244b053</page>
+                <summary/>
+                <sys_created_by>CRMILLER</sys_created_by>
+                <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                <sys_id>19074305131e4300d22c5eff3244b074</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>CRMILLER</sys_updated_by>
+                <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b074</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>1d074305131e4300d22c5eff3244b074</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b074</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>55074305131e4300d22c5eff3244b075</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>b5e54bc1131e4300d22c5eff3244b053</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b074</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>59074305131e4300d22c5eff3244b074</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>bff3581e20691100c9136d1d92224521</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b074</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>91074305131e4300d22c5eff3244b075</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>content_block_header</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b074</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>dd074305131e4300d22c5eff3244b074</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>LRHS - Portal - Header</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone100</dropzone>
+                <offset>0</offset>
+                <page display_value="Locksmith Work Order">b5e54bc1131e4300d22c5eff3244b053</page>
+                <summary/>
+                <sys_created_by>CRMILLER</sys_created_by>
+                <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                <sys_id>19074305131e4300d22c5eff3244b077</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>CRMILLER</sys_updated_by>
+                <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b077</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>1d074305131e4300d22c5eff3244b077</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b077</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>55074305131e4300d22c5eff3244b078</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>b5e54bc1131e4300d22c5eff3244b053</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b077</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>59074305131e4300d22c5eff3244b077</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>1004905e20691100c9136d1d922245a2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b077</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>91074305131e4300d22c5eff3244b078</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>content_block_static</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 11-06-2017 10:38:35">19074305131e4300d22c5eff3244b077</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2017-11-06 15:38:35</sys_created_on>
+                        <sys_id>dd074305131e4300d22c5eff3244b077</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+                        <value>LRHS - Portal - Footer</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="LRHS Services Portal">4d8c1601d00b51004fcd742b0b687c83</content_site>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout display_value="layout_3_across_side_buffers">27716b0620691100c9136d1d92224579</layout>
+        <model_id/>
+        <model_table/>
+        <name>Locksmith Work Order</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-11-06 15:33:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b5e54bc1131e4300d22c5eff3244b053</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Locksmith Work Order</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>content_page_b5e54bc1131e4300d22c5eff3244b053</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-11-06 15:38:35</sys_updated_on>
+        <title>Locksmith Work Order</title>
+        <url_suffix>locksmith_wo_req</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="MM Quick Work Order">973eefa76faa760013dd8ebf2c3ee4cd</catalog_item>
+        <catalog_variable>IO:22c1a76f6fddb20013dd8ebf2c3ee4ec</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-05-16 14:01:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>131c6a056fbab60013dd8ebf2c3ee42d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show_assgnment_override</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_131c6a056fbab60013dd8ebf2c3ee42d</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-05-16 14:01:15</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Contact Type &amp; Assign Override">40a28c3f6faa760013dd8ebf2c3ee43e</ui_policy>
+        <variable>show_assgnment_override</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

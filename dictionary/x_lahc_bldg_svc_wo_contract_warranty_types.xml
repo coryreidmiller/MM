@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Contract Warranty Types" max_length="40" name="x_lahc_bldg_svc_wo_contract_warranty_types" type="collection">
+        <element display="true" label="Warranty Type" max_length="40" name="warranty_type" type="string"/>
+    </element>
+</database>

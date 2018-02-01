@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Bldg Svcs Work Order Request">f2d4c8976fcd320013dd8ebf2c3ee48b</sc_cat_item>
+        <sc_catalog display_value="EVS">987693892ca69a40510b59d2f5a78017</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-05-10 18:57:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba56fc936f66760013dd8ebf2c3ee4aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EVS.Bldg Svcs Work Order Request</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ba56fc936f66760013dd8ebf2c3ee4aa</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-06-17 04:17:08</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="bm manufacturers" max_length="40" name="x_lahc_bldg_svc_wo_bm_manufacturers" type="collection">
+        <element attributes="import_attribute_name=alm_asset" label="alm_asset" max_length="40" name="u_alm_asset" type="string"/>
+        <element attributes="import_attribute_name=AN" label="AN" max_length="40" name="u_an" type="string"/>
+        <element attributes="import_attribute_name=AO" label="AO" max_length="40" name="u_ao" type="string"/>
+        <element attributes="import_attribute_name=AP" label="AP" max_length="40" name="u_ap" type="string"/>
+        <element attributes="import_attribute_name=AQ" label="AQ" max_length="40" name="u_aq" type="string"/>
+        <element attributes="import_attribute_name=AR" label="AR" max_length="40" name="u_ar" type="string"/>
+        <element attributes="import_attribute_name=AS" label="AS" max_length="40" name="u_as" type="integer"/>
+        <element attributes="import_attribute_name=asset_tag" label="asset_tag" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="import_attribute_name=cmdb_model" label="cmdb_model" max_length="40" name="u_cmdb_model" type="string"/>
+        <element attributes="import_attribute_name=comments?" label="comments?" max_length="40" name="u_comments_" type="string"/>
+        <element attributes="import_attribute_name=core_company" label="core_company" max_length="40" name="u_core_company" type="string"/>
+        <element attributes="import_attribute_name=cost" label="cost" max_length="15" name="u_cost" type="decimal"/>
+        <element attributes="import_attribute_name=cost_center" label="cost_center" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="import_attribute_name=department" label="department" max_length="40" name="u_department" type="string"/>
+        <element attributes="import_attribute_name=G" label="G" max_length="40" name="u_g" type="string"/>
+        <element attributes="import_attribute_name=I" label="I" max_length="40" name="u_i" type="string"/>
+        <element attributes="import_attribute_name=install_date" label="install_date" max_length="40" name="u_install_date" type="string"/>
+        <element attributes="import_attribute_name=install_state" label="install_state" max_length="40" name="u_install_state" type="string"/>
+        <element attributes="import_attribute_name=J" label="J" max_length="40" name="u_j" type="string"/>
+        <element attributes="import_attribute_name=location" label="location" max_length="40" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=manufacturer" label="manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=model_category??" label="model_category??" max_length="56" name="u_model_category__" type="string"/>
+        <element attributes="import_attribute_name=model_name" label="model_name" max_length="40" name="u_model_name" type="string"/>
+        <element attributes="import_attribute_name=model_number" label="model_number" max_length="40" name="u_model_number" type="string"/>
+        <element attributes="import_attribute_name=N" label="N" max_length="40" name="u_n" type="string"/>
+        <element attributes="import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=name.manufacturer" label="name.manufacturer" max_length="40" name="u_name_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=name.org.manufacturer" label="name.org.manufacturer" max_length="40" name="u_name_org_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=name.vendor" label="name.vendor" max_length="40" name="u_name_vendor" type="string"/>
+        <element attributes="import_attribute_name=O" label="O" max_length="40" name="u_o" type="string"/>
+        <element attributes="import_attribute_name=P" label="P" max_length="40" name="u_p" type="string"/>
+        <element attributes="import_attribute_name=po_number" label="po_number" max_length="40" name="u_po_number" type="string"/>
+        <element attributes="import_attribute_name=purchase_date" label="purchase_date" max_length="40" name="u_purchase_date" type="string"/>
+        <element attributes="import_attribute_name=R" label="R" max_length="40" name="u_r" type="string"/>
+        <element attributes="import_attribute_name=room" label="room" max_length="40" name="u_room" type="string"/>
+        <element attributes="import_attribute_name=serial_number" label="serial_number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=site" label="site" max_length="40" name="u_site" type="string"/>
+        <element attributes="import_attribute_name=support_group" label="support_group" max_length="40" name="u_support_group" type="string"/>
+        <element attributes="import_attribute_name=support_group_number" label="support_group_number" max_length="40" name="u_support_group_number" type="string"/>
+        <element attributes="import_attribute_name=vendor" label="vendor" max_length="40" name="u_vendor" type="string"/>
+        <element attributes="import_attribute_name=W" label="W" max_length="40" name="u_w" type="string"/>
+        <element attributes="import_attribute_name=warranty_expiration" label="warranty_expiration" max_length="40" name="u_warranty_expiration" type="string"/>
+        <element attributes="import_attribute_name=X" label="X" max_length="40" name="u_x" type="string"/>
+        <element attributes="import_attribute_name=Y" label="Y" max_length="40" name="u_y" type="string"/>
+        <element attributes="import_attribute_name=Z" label="Z" max_length="40" name="u_z" type="string"/>
+    </element>
+</database>

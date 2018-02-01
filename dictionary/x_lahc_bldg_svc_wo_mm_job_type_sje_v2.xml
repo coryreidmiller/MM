@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM Job Type SJE v2" max_length="40" name="x_lahc_bldg_svc_wo_mm_job_type_sje_v2" sizeclass="160515" type="collection">
+        <element attributes="import_attribute_name=CLOSED" label="CLOSED" max_length="40" name="u_closed" type="glide_date_time"/>
+        <element attributes="import_attribute_name=CONCAT,edge_encryption_enabled=true" label="CONCAT" max_length="40" name="u_concat" type="string"/>
+        <element attributes="import_attribute_name=JOB TYPE,edge_encryption_enabled=true" label="JOB TYPE" max_length="40" name="u_job_type" type="string"/>
+        <element attributes="import_attribute_name=NOTES,edge_encryption_enabled=true" label="NOTES" max_length="987" name="u_notes" type="string"/>
+        <element attributes="import_attribute_name=NUMBER,edge_encryption_enabled=true" label="NUMBER" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=PROBLEM,edge_encryption_enabled=true" label="PROBLEM" max_length="6751" name="u_problem" type="string"/>
+        <element attributes="import_attribute_name=ROOM,edge_encryption_enabled=true" label="ROOM" max_length="62" name="u_room" type="string"/>
+        <element attributes="import_attribute_name=STATUS,edge_encryption_enabled=true" label="STATUS" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=WORK ORDER TYPE,edge_encryption_enabled=true" label="WORK ORDER TYPE" max_length="40" name="u_work_order_type" type="string"/>
+        <element attributes="import_attribute_name=WO_NUMBER" label="WO_NUMBER" max_length="40" name="u_wo_number" type="integer"/>
+    </element>
+</database>

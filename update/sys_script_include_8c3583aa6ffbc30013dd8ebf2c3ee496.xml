@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_lahc_bldg_svc_wo.CopyDevice</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CopyDevice</name>
+        <script><![CDATA[var CopyDevice = Class.create();
+
+CopyDevice.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	copyAsset: function() {
+	
+		var asset_old = this.getParameter('sysparm_asset_old');
+		var asset_new = this.getParameter('sysparm_asset_new');
+
+		gs.log("copyAsset(asset_old = "+asset_old+",asset_new = "+asset_new +")", "CRMILLER");
+
+  	  	var lookup = new GlideRecord('u_bio_med'); 
+  		lookup.addQuery('u_asset_tag', asset_old );
+  		lookup.query();
+  	  	if (lookup.next()) {
+		        gs.log("Found Current Asset ("+asset_old+")", "CRMILLER");
+			var gr = new GlideRecord('u_bio_med');
+			gr.initialize();  
+			gr.u_asset_tag = asset_new;
+			gr.u_description = lookup.u_description;
+			gr.u_equipment_type = lookup.u_equipment_type;
+			gr.u_equipment_class = lookup.u_equipment_class;
+			gr.u_equipment_status= lookup.u_equipment_status;
+			gr.u_original_manufacturer= lookup.u_original_manufacturer;
+			gr.u_manufacturer= lookup.u_manufacturer;
+			gr.u_model_number= lookup.u_model_number;
+			gr.u_model_name= lookup.u_model_name;
+//			gr.u_serial_number= lookup.u_serial_number;
+			gr.u_site= lookup.u_site;
+			gr.u_department= lookup.u_department;
+			gr.u_location= lookup.u_location;
+			gr.u_building= lookup.u_building;
+			gr.u_equ_notes= lookup.u_equ_notes;
+			gr.u_wo_notes= lookup.u_wo_notes;
+			gr.u_cost_center= lookup.u_cost_center;
+			gr.u_responsible_center= lookup.u_responsible_center;
+			gr.u_purchase_date= lookup.u_purchase_date;
+			gr.u_in_service= lookup.u_in_service;
+			gr.u_last_inventory_date= lookup.u_last_inventory_date;
+			gr.u_inventory_notes= lookup.u_inventory_notes;
+			gr.u_supplier= lookup.u_supplier;
+			gr.u_po_number= lookup.u_po_number;
+			gr.u_purch_cost= lookup.u_purch_cost;
+			gr.u_wo_notes= lookup.u_wo_notes +(" Duplicated from another Device");
+			gr.insert();
+
+                        var pms_lookup = new GlideRecord('u_bio_pm'); 
+  		        pms_lookup.addQuery('u_tag', lookup.sys_id);
+  		        pms_lookup.query();
+  	  	        while (pms_lookup.next()) {
+                               
+		             gs.log("Found Current Asset PM ("+lookup.sys_id+")", "CRMILLER");
+			     var pms_gr = new GlideRecord('u_bio_pm');
+			     pms_gr.initialize();  
+			     pms_gr.u_tag = gr.sys_id;
+			     pms_gr.u_description = pms_lookup.u_description;
+			     pms_gr.u_service_department = pms_lookup.u_service_department;
+			     pms_gr.u_assigned_to = pms_lookup.u_assigned_to;
+			     pms_gr.u_pm_notes = pms_lookup.u_pm_notes;
+			     pms_gr.u_procedure = pms_lookup.u_procedure;
+			     pms_gr.u_frequency = pms_lookup.u_frequency;
+			     pms_gr.u_time = pms_lookup.u_time;
+			     pms_gr.u_season_begin = pms_lookup.u_season_begin;
+			     pms_gr.u_season_end = pms_lookup.u_season_end;
+			     pms_gr.insert();
+
+                             var pms_dates_lookup = new GlideRecord('u_bio_med_pm_dates'); 
+  		             pms_dates_lookup.addQuery('u_pm_schedule', pms_lookup.u_bio_med_pm_number);
+  		             pms_dates_lookup.query();
+  	  	             while(pms_dates_lookup.next()) {           
+		                gs.log("Found Current Asset PM Date for ("+pms_lookup.u_bio_med_pm_number+")", "CRMILLER");                       
+			        var pmsd_gr = new GlideRecord('u_bio_med_pm_dates');
+			        pmsd_gr.initialize();  
+			        pmsd_gr.u_pm_schedule = pms_gr.sys_id;
+			        pmsd_gr.u_date_scheduled = pms_dates_lookup.u_date_scheduled;
+			        pmsd_gr.insert();
+                             }
+                        }
+                        return gr.sys_id;
+		}
+	},
+	checkAsset: function() {
+                var isValid = "true"; 
+		var asset_new = this.getParameter('sysparm_asset_new');
+
+		gs.log("checkAsset(asset_new = "+asset_new +")", "CRMILLER");
+
+  	  	var lookup = new GlideRecord('u_bio_med'); 
+  		lookup.addQuery('u_asset_tag', asset_new );
+  		lookup.query();
+  	  	if (lookup.next()) {
+                        isValid = "false"; 
+		        gs.log("Found Current Asset ("+asset_new+")", "CRMILLER");
+                }
+                return isValid;
+        }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-01-24 20:56:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8c3583aa6ffbc30013dd8ebf2c3ee496</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CopyDevice</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_script_include_8c3583aa6ffbc30013dd8ebf2c3ee496</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-24 20:59:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

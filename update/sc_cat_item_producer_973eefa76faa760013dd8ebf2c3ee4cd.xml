@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>MM Quick Work Order</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=973eefa76faa760013dd8ebf2c3ee4cd&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles>x_lahc_bldg_svc_wo.user</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.u_requesting_building = producer.location;
+current.u_requesting_department = producer.department;
+current.u_requested_for = producer.caller_id;
+if(producer.u_quick_close == 'true'){
+	// Set Work Order Status to "Closed"
+	current.u_wo_status = "9b0e27e313f94340d22c5eff3244b0a4";
+	//    current.state = '3';
+	gs.addInfoMessage("This Work Order has been Opened and Closed");
+}
+var materialCost= 0.00;
+if(checkFieldPresent(producer.u_quantity) && checkFieldPresent(producer.u_material_cost)){
+	var n = new GlideRecord('x_lahc_bldg_svc_wo_materials');
+	n.initialize();
+	n.work_order_number = current.sys_id;
+	n.quantity = producer.u_quantity;
+	n.material_cost = producer.u_material_cost;
+	n.description = checkFieldPresent(producer.u_description);
+	n.part = checkFieldPresent(producer.u_part );
+	n.u_materials_billable = checkFieldPresent(producer.u_billable);
+	n.u_performed_date = producer.u_bldg_svcs_performed_date;
+	var qty = checkNumberPresent(producer.u_quantity);
+	var tCost = parseFloat(qty) * parseFloat(checkNumberPresent(producer.u_material_cost));
+	materialCost = tCost.toFixed(2);
+	n.total_material_cost = materialCost;
+	n.insert();
+	//current.u_resolution = current.u_resolution+producer.u_quantity +" "+producer.u_description+" "+producer.u_part+" @ "+producer.u_material_cost +" each"+"\r \r";
+	current.u_resolution =	current.u_resolution+"("+producer.u_quantity.getDisplayValue()+") "+producer.u_description+" "+producer.u_part+" installed by  "+producer.u_bldg_svcs_performed_by.getDisplayValue()+"\r \r";
+}
+
+var laborCost= 0.00;
+if (checkFieldPresent(producer.u_hours) && checkFieldPresent(producer.u_rate)){
+	var nl = new GlideRecord('x_lahc_bldg_svc_wo_labor');
+	nl.initialize();
+	nl.mwo = current.sys_id;
+	
+	nl.rate = checkFieldPresent(producer.u_rate);
+	nl.details = checkFieldPresent(producer.u_action);
+	nl.u_billable_hours = checkFieldPresent(producer.u_billable);
+	nl.worker = checkFieldPresent(producer.u_labor_performed_by);
+	nl.performed_by = checkFieldPresent(producer.u_bldg_svcs_performed_by);
+	nl.u_performed_date = checkFieldPresent(producer.u_bldg_svcs_performed_date);
+	nl.response = checkFieldPresent(producer.u_response);
+	//current.u_resolution = current.u_resolution+"* "+producer.u_response.description +"* "+ "\r"+producer.u_action+ "\r \r";
+	current.u_resolution = current.u_resolution+" "+producer.u_hours+" hour(s) "+producer.u_action+" performed by "+current.u_bldg_svcs_performed_by.getDisplayValue();
+	
+	var qty = checkNumberPresent(producer.u_hours);
+	var tCost = parseFloat(qty) * parseFloat(checkNumberPresent(producer.u_rate));
+	laborCost = tCost.toFixed(2);
+	nl.hours = producer.u_hours;
+	nl.total_cost=laborCost;
+	nl.insert();
+}
+
+function checkFieldPresent(fieldObject){
+	var fieldValue = "";
+	if(fieldObject && !fieldObject.nil()){
+		fieldValue = fieldObject;
+	}
+	return fieldValue;
+}
+function checkNumberPresent(fieldObject){
+	var fieldValue = "0";
+	if(fieldObject && !fieldObject.nil()){
+		fieldValue = fieldObject;
+	}
+	return fieldValue;
+}]]></script>
+        <short_description/>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-05-12 03:05:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>973eefa76faa760013dd8ebf2c3ee4cd</sys_id>
+        <sys_mod_count>137</sys_mod_count>
+        <sys_name>MM Quick Work Order</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sc_cat_item_producer_973eefa76faa760013dd8ebf2c3ee4cd</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-22 19:04:44</sys_updated_on>
+        <table_name>x_lahc_bldg_svc_wo_table</table_name>
+        <template/>
+        <type>item</type>
+        <u_priority_matrix_legend/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=973eefa76faa760013dd8ebf2c3ee4cd"/>
+    <fx_price action="delete_multiple" query="id=973eefa76faa760013dd8ebf2c3ee4cd"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>973eefa76faa760013dd8ebf2c3ee4cd</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-05-12 03:05:47</sys_created_on>
+        <sys_id>eabf67e76faa760013dd8ebf2c3ee4fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-05-12 03:05:47</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>973eefa76faa760013dd8ebf2c3ee4cd</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-05-12 03:05:47</sys_created_on>
+        <sys_id>6ebf67e76faa760013dd8ebf2c3ee4fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-05-12 03:05:47</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

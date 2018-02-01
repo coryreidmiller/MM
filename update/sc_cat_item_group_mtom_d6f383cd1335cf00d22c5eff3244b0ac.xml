@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_group_mtom">
+    <sc_cat_item_group_mtom action="INSERT_OR_UPDATE">
+        <sc_avail_group display_value="Maintenance SJ" name="Maintenance SJ">e289086e6f85320013dd8ebf2c3ee437</sc_avail_group>
+        <sc_cat_item display_value="MM Quick Work Order">973eefa76faa760013dd8ebf2c3ee4cd</sc_cat_item>
+        <sys_class_name>sc_cat_item_group_mtom</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-10-12 18:53:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d6f383cd1335cf00d22c5eff3244b0ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MM Quick Work Order.Maintenance SJ</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sc_cat_item_group_mtom_d6f383cd1335cf00d22c5eff3244b0ac</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-10-12 18:53:52</sys_updated_on>
+    </sc_cat_item_group_mtom>
+</record_update>

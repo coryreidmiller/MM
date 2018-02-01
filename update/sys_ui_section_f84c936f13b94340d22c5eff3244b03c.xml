@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Purchase Information" section_id="f84c936f13b94340d22c5eff3244b03c" sys_domain="global" table="x_lahc_bldg_svc_wo_asset" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_supplier</element>
+            <position>0</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>c14c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_po_number</element>
+            <position>1</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>454c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_purchase_date</element>
+            <position>2</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>c54c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_in_service</element>
+            <position>3</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>494c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>c94c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_purch_cost</element>
+            <position>5</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>4d4c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total_repair_maintenance</element>
+            <position>6</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>cd4c936f13b94340d22c5eff3244b047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_material_total</element>
+            <position>7</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>414c936f13b94340d22c5eff3244b048</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total_cost</element>
+            <position>8</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:49</sys_created_on>
+            <sys_id>c14c936f13b94340d22c5eff3244b048</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Information" display_value="Purchase Information" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">f84c936f13b94340d22c5eff3244b03c</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Purchase Information</caption>
+            <header>false</header>
+            <name>x_lahc_bldg_svc_wo_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:04:48</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f84c936f13b94340d22c5eff3244b03c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Purchase Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_ui_section_f84c936f13b94340d22c5eff3244b03c</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-20 15:04:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

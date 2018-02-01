@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Model Number" max_length="40" name="x_lahc_bldg_svc_wo_model_number" type="collection">
+        <element label="Equipment Type" max_length="40" name="device_type" reference="x_lahc_bldg_svc_wo_equipment_type" type="reference"/>
+        <element label="No Longer Meets User Needs" max_length="40" name="industry_change" type="boolean"/>
+        <element label="Life Expectancy (yrs)" max_length="40" name="life_expectancy" type="string"/>
+        <element label="Manufacturer" max_length="40" name="manufacturer" reference="core_company" type="reference"/>
+        <element label="Model Description" max_length="40" name="model_description" type="string"/>
+        <element display="true" label="Model Number" max_length="40" name="model_number" type="string"/>
+        <element label="No Manufacturer Support" max_length="40" name="no_manufacturer_support" type="boolean"/>
+        <element label="Parts Not Available" max_length="40" name="parts_not_available" type="boolean"/>
+        <index name="index">
+            <element name="device_type"/>
+        </index>
+        <index name="index2">
+            <element name="model_number"/>
+        </index>
+        <index name="index3">
+            <element name="manufacturer"/>
+        </index>
+    </element>
+</database>

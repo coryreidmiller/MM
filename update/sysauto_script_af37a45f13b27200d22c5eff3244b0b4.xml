@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>MM Update Recommendations</name>
+        <run_as display_value="Cory Miller">64c0bfbcacc95000ac148fcc9e538065</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-05-23 04:07:03</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var gr_sux = new GlideRecord('x_lahc_bldg_svc_wo_asset');
+gr_sux.query();
+//gs.info("Updates Found = "+gr_sux.getRowCount());
+while(gr_sux.next()){	
+
+	var u_isc = 0;
+	var u_ed = 0;
+	var u_le = 0;
+	var u_nms = 0;
+	var u_pu = 0;
+	var u_nlmun = 0;
+	var total_score = 0;
+	var u_lee;
+
+	var gr = new GlideRecord('x_lahc_bldg_svc_wo_model_number');
+	gr.addQuery('sys_id', gr_sux.u_model_number);
+	gr.query();
+	if(gr.next()) {
+		var date1 = new GlideDateTime(new GlideDate().getDisplayValue());
+		var date2 = new GlideDateTime(gr_sux.u_in_service);
+		if(checkNumberPresent(gr.life_expectancy)){			
+			try{
+				date2.addYearsLocalTime(parseInt(gr.life_expectancy));
+			}
+			catch(error){
+			}
+		}		
+		var start = date1.getNumericValue();  
+		var end = date2.getNumericValue();
+		if (start > end) { 
+			u_lee = 'true';	
+			u_le = 20;	
+		}
+		else{
+			u_lee = 'false';
+		}
+	}
+
+	gr_sux.u_lee = u_lee;
+	gr_sux.u_nms = gr.no_manufacturer_support;
+	gr_sux.u_pu = gr.parts_not_available;
+	gr_sux.u_nlmun = gr.industry_change;
+
+	if(gr_sux.u_immediate_safety_concern){
+		u_isc = 80;
+	}
+	if(gr_sux.u_excessive_downtime){
+		u_ed = 20;
+	}
+	if(gr.no_manufacturer_support){
+		u_nms = 20;
+	}
+	if(gr.parts_not_available){
+		u_pu = 40;
+	}
+	if(gr.industry_change){
+		u_nlmun = 10;
+	}
+	total_score = u_nms + u_pu + u_nlmun + u_le + u_isc + u_ed;
+
+	if (total_score > 60) {
+		gr_sux.u_recommendation = '44002c9b13b27200d22c5eff3244b0e3';  //Replace Immediately
+	} else if ((total_score <= 60) && (total_score >= 40)) {
+		gr_sux.u_recommendation = 'ce202c9b13b27200d22c5eff3244b0da';  //Replace Next Fiscal Year
+	} else if ((total_score < 40) && (total_score >= 20)){
+		gr_sux.u_recommendation = '4930a89b13b27200d22c5eff3244b0af';  //Replace within 5 years
+	} else if (total_score < 20) {
+		gr_sux.u_recommendation = 'bf306c9b13b27200d22c5eff3244b096';  //Do not replace
+	}
+
+	gr_sux.u_isc_value = u_isc;
+	gr_sux.u_ed_value = u_ed;
+	gr_sux.u_lee_value = u_le;
+	gr_sux.u_pu_value = u_pu;
+	
+	gr_sux.u_nms_value = u_nms;
+	gr_sux.u_nlmun_value = u_nlmun;
+	gr_sux.u_total_value = total_score.toFixed(0);
+	gr_sux.update();
+}
+
+function checkFieldPresent(fieldObject){
+    var fieldValue = "";
+   if(fieldObject && !fieldObject.nil()){
+       fieldValue = fieldObject;
+   } 
+   return fieldValue;
+}
+function checkNumberPresent(fieldObject){
+    var fieldValue = "0";
+   if(fieldObject && !fieldObject.nil()){
+       fieldValue = fieldObject;
+   } 
+   return fieldValue;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>cjoyal</sys_created_by>
+        <sys_created_on>2017-05-23 04:07:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>af37a45f13b27200d22c5eff3244b0b4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MM Update Recommendations</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sysauto_script_af37a45f13b27200d22c5eff3244b0b4</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-31 14:44:47</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

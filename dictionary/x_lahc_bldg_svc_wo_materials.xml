@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Maintenance Materials" max_length="40" name="x_lahc_bldg_svc_wo_materials" type="collection">
+        <element default="new GlideDateTime().getDisplayValue()" label="Date" max_length="40" name="date" read_only="true" type="glide_date_time"/>
+        <element label="Part Name" max_length="40" name="description" type="string"/>
+        <element label="Price / Item" max_length="40" name="material_cost" type="string"/>
+        <element label="Part Number" max_length="40" name="part" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Performed by" max_length="40" name="performed_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="1" label="Quantity" max_length="40" name="quantity" type="string"/>
+        <element label="Extended" max_length="40" name="total_material_cost" read_only="true" type="string"/>
+        <element label="Billable" max_length="40" name="u_materials_billable" type="boolean"/>
+        <element label="Supplier" max_length="32" name="u_material_supplier" reference="core_company" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Performed on" mandatory="true" max_length="40" name="u_performed_date" type="glide_date_time" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Worker" max_length="32" name="worker" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="In House" label="Worker Type" max_length="32" name="worker_type" reference="x_lahc_bldg_svc_wo_worker_type" type="reference">
+            <choice/>
+        </element>
+        <element label="Work Order Number" max_length="40" name="work_order_number" read_only="true" reference="x_lahc_bldg_svc_wo_table" type="reference"/>
+        <index name="index">
+            <element name="work_order_number"/>
+        </index>
+        <index name="index2">
+            <element name="performed_by"/>
+        </index>
+        <index name="index3">
+            <element name="worker_type"/>
+        </index>
+        <index name="index4">
+            <element name="u_material_supplier"/>
+        </index>
+        <index name="index5">
+            <element name="worker"/>
+        </index>
+    </element>
+</database>

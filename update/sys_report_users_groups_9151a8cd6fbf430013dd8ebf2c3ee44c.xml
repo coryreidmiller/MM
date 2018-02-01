@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="MMW All Unassigned PMs">d951a8cd6fbf430013dd8ebf2c3ee44b</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-01-19 17:08:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9151a8cd6fbf430013dd8ebf2c3ee44c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d951a8cd6fbf430013dd8ebf2c3ee44b</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_report_users_groups_9151a8cd6fbf430013dd8ebf2c3ee44c</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-19 17:08:51</sys_updated_on>
+        <user_id display_value="Cory Miller">64c0bfbcacc95000ac148fcc9e538065</user_id>
+    </sys_report_users_groups>
+</record_update>

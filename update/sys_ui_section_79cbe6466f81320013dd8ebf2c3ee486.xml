@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="79cbe6466f81320013dd8ebf2c3ee486" sys_domain="global" table="x_lahc_bldg_svc_wo_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d134d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pm_generated</element>
+            <position>1</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5534d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>2</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d534d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>3</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5934d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_for</element>
+            <position>4</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d934d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_key_contact</element>
+            <position>5</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5d34d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact</element>
+            <position>6</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>dd34d8066fff830013dd8ebf2c3ee4ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requesting_building</element>
+            <position>7</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5134d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requesting_department</element>
+            <position>8</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d134d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_room</element>
+            <position>9</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5534d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d534d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_wo_status</element>
+            <position>11</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5934d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_order_type</element>
+            <position>12</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d934d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asset_tag</element>
+            <position>13</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5d34d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pm_procedure</element>
+            <position>14</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>dd34d8066fff830013dd8ebf2c3ee4eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_job_type</element>
+            <position>15</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5134d8066fff830013dd8ebf2c3ee4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>16</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d134d8066fff830013dd8ebf2c3ee4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bldg_svcs_performed_date</element>
+            <position>17</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5534d8066fff830013dd8ebf2c3ee4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bldg_svcs_performed_by</element>
+            <position>18</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d534d8066fff830013dd8ebf2c3ee4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>19</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>5934d8066fff830013dd8ebf2c3ee4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>20</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2018-01-22 18:45:26</sys_created_on>
+            <sys_id>d934d8066fff830013dd8ebf2c3ee4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lahc_bldg_svc_wo_table" sys_domain="global" view="Default view">79cbe6466f81320013dd8ebf2c3ee486</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:43:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>79cbe6466f81320013dd8ebf2c3ee486</sys_id>
+            <sys_mod_count>27</sys_mod_count>
+            <sys_name>x_lahc_bldg_svc_wo_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_ui_section_79cbe6466f81320013dd8ebf2c3ee486</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-01-22 18:45:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

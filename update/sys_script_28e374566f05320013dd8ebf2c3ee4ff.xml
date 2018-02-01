@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_lahc_bldg_svc_wo_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate Cost of Ownership</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onAfter(current, previous) {
+   var total_material_cost = 0.00;
+var total_labor_cost = 0.00;
+gs.info("GO FIND MY WO >>> x_lahc_bldg_svc_wo_table","CMILLER");
+var gr = new GlideRecord('x_lahc_bldg_svc_wo_table');
+gr.addQuery('u_asset_tag', current.asset_tag);
+gr.query();
+while(gr.next()) {
+	total_material_cost += parseFloat(gr.u_material);
+	total_labor_cost += parseFloat(gr.u_labor);
+gs.info("total_material_cost >>> "+total_material_cost ,"CMILLER");
+gs.info("total_labor_cost >>> "+total_labor_cost ,"CMILLER");
+}
+
+gs.info("GO FIND MY DEVICE >>> x_lahc_bldg_svc_wo_asset","CMILLER");
+var gr = new GlideRecord('x_lahc_bldg_svc_wo_asset');
+gr.addQuery('sys_id', current.asset_tag);
+gr.query();
+while(gr.next()) {
+  var totalCost = parseFloat(gr.u_purch_cost) + total_material_cost + total_labor_cost ;
+  gr.u_total_cost = totalCost.toFixed(2);
+  gr.update();
+}
+
+   
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-02-22 02:39:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>28e374566f05320013dd8ebf2c3ee4ff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calculate Cost of Ownership</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_script_28e374566f05320013dd8ebf2c3ee4ff</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-31 15:21:53</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

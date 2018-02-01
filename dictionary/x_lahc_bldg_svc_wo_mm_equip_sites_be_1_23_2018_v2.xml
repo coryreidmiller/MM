@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM EQUIP SITES BE 1.23.2018 v2" max_length="40" name="x_lahc_bldg_svc_wo_mm_equip_sites_be_1_23_2018_v2" type="collection">
+        <element attributes="import_attribute_name=EQUIPMENT TAG,edge_encryption_enabled=true" label="EQUIPMENT TAG" max_length="40" name="u_equipment_tag" type="string"/>
+        <element attributes="import_attribute_name=SITE,edge_encryption_enabled=true" label="SITE" max_length="46" name="u_site" type="string"/>
+    </element>
+</database>

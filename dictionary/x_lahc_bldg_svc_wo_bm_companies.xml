@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="bm companies" max_length="40" name="x_lahc_bldg_svc_wo_bm_companies" type="collection">
+        <element attributes="import_attribute_name=manufacturer" label="manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=vendor" label="vendor" max_length="40" name="u_vendor" type="string"/>
+    </element>
+</database>

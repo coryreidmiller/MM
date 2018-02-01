@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="PM Schedules BE v2" max_length="40" name="x_lahc_bldg_svc_wo_pm_schedules_be_v2" type="collection">
+        <element attributes="import_attribute_name=ASSIGNED TO,edge_encryption_enabled=true" label="ASSIGNED TO" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=ASSIGNMENT GROUP,edge_encryption_enabled=true" label="ASSIGNMENT GROUP" max_length="40" name="u_assignment_group" type="string"/>
+        <element attributes="import_attribute_name=END DATE" label="END DATE" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="import_attribute_name=EQUIPMENT TAG,edge_encryption_enabled=true" label="EQUIPMENT TAG" max_length="40" name="u_equipment_tag" type="string"/>
+        <element attributes="import_attribute_name=ESTIMATED TIME" label="ESTIMATED TIME" max_length="15" name="u_estimated_time" type="decimal"/>
+        <element attributes="import_attribute_name=FREQUENCY" label="FREQUENCY" max_length="40" name="u_frequency" type="integer"/>
+        <element attributes="import_attribute_name=PM NOTES,edge_encryption_enabled=true" label="PM NOTES" max_length="817" name="u_pm_notes" type="string"/>
+        <element attributes="import_attribute_name=PROCEDURE,edge_encryption_enabled=true" label="PROCEDURE" max_length="40" name="u_procedure" type="string"/>
+        <element attributes="import_attribute_name=REPEAT TIME,edge_encryption_enabled=true" label="REPEAT TIME" max_length="40" name="u_repeat_time" type="string"/>
+        <element attributes="import_attribute_name=START DATE" label="START DATE" max_length="40" name="u_start_date" type="glide_date_time"/>
+    </element>
+</database>

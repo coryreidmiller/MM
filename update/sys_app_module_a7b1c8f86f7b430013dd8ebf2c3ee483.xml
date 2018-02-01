@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Maintenance Management">8d136ec26f81320013dd8ebf2c3ee44a</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Manage Assignment Groups</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>296</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1f0418d56f61360013dd8ebf2c3ee45e&amp;sysparm_link_parent=2f0043fe1ddf11004fcd8d6c3717bff7&amp;sysparm_catalog=e0d08b13c3330100c8b837659bba8fb4&amp;sysparm_catalog_view=catalog_default</query>
+        <report/>
+        <roles>x_lahc_bldg_svc_wo.super_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-01-18 20:12:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a7b1c8f86f7b430013dd8ebf2c3ee483</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Group Memberships</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_app_module_a7b1c8f86f7b430013dd8ebf2c3ee483</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-18 20:39:58</sys_updated_on>
+        <timeline_page/>
+        <title>Group Memberships</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

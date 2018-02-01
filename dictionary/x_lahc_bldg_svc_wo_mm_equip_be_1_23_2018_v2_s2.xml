@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM EQUIP BE 1.23.2018 v2 s2" max_length="40" name="x_lahc_bldg_svc_wo_mm_equip_be_1_23_2018_v2_s2" type="collection">
+        <element attributes="import_attribute_name=ASSIGNMENT GROUP,edge_encryption_enabled=true" label="ASSIGNMENT GROUP" max_length="40" name="u_assignment_group" type="string"/>
+        <element attributes="import_attribute_name=DESCRIPTION,edge_encryption_enabled=true" label="DESCRIPTION" max_length="40" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT CLASS,edge_encryption_enabled=true" label="EQUIPMENT CLASS" max_length="40" name="u_equipment_class" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT NOTES,edge_encryption_enabled=true" label="EQUIPMENT NOTES" max_length="382" name="u_equipment_notes" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT STATUS,edge_encryption_enabled=true" label="EQUIPMENT STATUS" max_length="40" name="u_equipment_status" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT TAG,edge_encryption_enabled=true" label="EQUIPMENT TAG" max_length="40" name="u_equipment_tag" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT TYPE,edge_encryption_enabled=true" label="EQUIPMENT TYPE" max_length="40" name="u_equipment_type" type="string"/>
+        <element attributes="import_attribute_name=IN SERVICE DATE" label="IN SERVICE DATE" max_length="40" name="u_in_service_date" type="glide_date_time"/>
+        <element attributes="import_attribute_name=LAST INVENTORY" label="LAST INVENTORY" max_length="40" name="u_last_inventory" type="glide_date_time"/>
+        <element attributes="import_attribute_name=MANUFACTURER,edge_encryption_enabled=true" label="MANUFACTURER" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=MODEL DESCRIPTION,edge_encryption_enabled=true" label="MODEL DESCRIPTION" max_length="40" name="u_model_description" type="string"/>
+        <element attributes="import_attribute_name=MODEL NUMBER,edge_encryption_enabled=true" label="MODEL NUMBER" max_length="40" name="u_model_number" type="string"/>
+        <element attributes="import_attribute_name=ORIGINAL MANUFACTURER,edge_encryption_enabled=true" label="ORIGINAL MANUFACTURER" max_length="40" name="u_original_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=SERIAL NUMBER,edge_encryption_enabled=true" label="SERIAL NUMBER" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=SUPPLIER_DESC,edge_encryption_enabled=true" label="SUPPLIER_DESC" max_length="40" name="u_supplier_desc" type="string"/>
+    </element>
+</database>

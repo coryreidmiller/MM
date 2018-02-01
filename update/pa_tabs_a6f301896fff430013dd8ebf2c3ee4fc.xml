@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA MAIN">6ef301896fff430013dd8ebf2c3ee4f8</canvas_page>
+        <name>MAIN</name>
+        <page display_value="PA MAIN">2af301896fff430013dd8ebf2c3ee4f8</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-01-19 19:40:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a6f301896fff430013dd8ebf2c3ee4fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MAIN</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>pa_tabs_a6f301896fff430013dd8ebf2c3ee4fc</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-19 19:40:13</sys_updated_on>
+    </pa_tabs>
+</record_update>

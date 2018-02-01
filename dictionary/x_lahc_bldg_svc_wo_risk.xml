@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Risk" max_length="40" name="x_lahc_bldg_svc_wo_risk" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Risk" max_length="40" name="u_risk" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="u_risk_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Points" max_length="40" name="u_risk_points" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Source" max_length="40" name="u_risk_source" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_risk_type" type="string"/>
+    </element>
+</database>

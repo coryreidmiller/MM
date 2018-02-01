@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_asset_description</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-12-07 16:13:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8c28fa4f6ffe430013dd8ebf2c3ee4a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_asset_description</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8c28fa4f6ffe430013dd8ebf2c3ee4a4</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-12-07 16:13:02</sys_updated_on>
+        <table>x_lahc_bldg_svc_wo_table</table>
+        <ui_policy display_value="Show Equip Description">e5d7ba4f6ffe430013dd8ebf2c3ee484</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

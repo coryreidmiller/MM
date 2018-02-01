@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name>mm_wo_req_ni</frame_name>
+        <height>600</height>
+        <logged_on>false</logged_on>
+        <name>Maintenance Work Order Niles</name>
+        <sizing>expand</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-05-10 21:59:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c0df91136fa6760013dd8ebf2c3ee428</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Maintenance Work Order Niles</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>content_block_iframe_c0df91136fa6760013dd8ebf2c3ee428</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-06-17 04:15:39</sys_updated_on>
+        <url>com.glideapp.servicecatalog_cat_item_view.do?sysparm_id=493cf81b6f66760013dd8ebf2c3ee49b</url>
+        <width>400</width>
+    </content_block_iframe>
+</record_update>

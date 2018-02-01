@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>MM Scheduled Maintenance</name>
+        <run_as display_value="Cory Miller">64c0bfbcacc95000ac148fcc9e538065</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-03-16 17:02:44</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[runSchedJob();
+
+function runSchedJob() {
+	var source = "PSM Drone";
+	var jobName = "Building Services - Preventative Maintenance - Drone, CRMILLER";
+	var psm = new GlideRecord('x_lahc_bldg_svc_wo_pm_dates');
+	gs.info("Starting scheduled job: " + jobName, source);
+	
+	psm.addQuery('date_scheduled', '=', gs.daysAgoStart(-1));
+	psm.query();
+	gs.info("Found " + psm.getRowCount() + " PSM Date records for today", source);
+	
+	while (psm.next()) {
+		var n = new GlideRecord('x_lahc_bldg_svc_wo_table');
+		n.initialize();
+		
+		// 		n.work_notes = "<<< PM Automatically Scheduled >>> ";
+		n.u_pm_generated = psm.pm_sched_no.u_maintenance_pm_number+" >>> "+psm.u_number;
+		n.u_asset_tag = psm.tag;
+		n.pm_procedure = psm.pm_sched_no.procedure;
+		n.u_work_order_type = "67f1e8626fc5320013dd8ebf2c3ee418";
+		n.u_requesting_department = psm.pm_sched_no.tag.u_department;
+		n.u_requesting_building = psm.pm_sched_no.tag.u_site;
+		n.u_location_room = psm.pm_sched_no.tag.u_location;
+		
+		n.u_problem += psm.tag.asset_tag+"\r";
+		
+		n.u_problem += psm.pm_sched_no.pm_notes +"\r";
+		
+		
+		n.u_problem += psm.pm_sched_no.tag.u_equ_notes +"\r";
+		
+		
+		//  		n.u_problem += n.pm_procedure.procedure+" Automatically Scheduled and Assigned from PM Schedule No. " +psm.pm_sched_no.u_maintenance_pm_number+"\r" ;
+		
+		n.u_problem += "<< Next Due in "+ psm.u_frequency +" "+ psm.u_time + " >>";
+		
+		
+		
+		
+		n.u_assignment_group = psm.pm_sched_no.assignment_group;
+		n.u_assigned_to = psm.pm_sched_no.assigned_to;
+		
+		
+		
+		n.u_contact_type = 'Auto-generated';
+		// n.short_description = psm.u_description+" for "+psm.tag.asset_tag;
+		n.short_description = "Auto-generated PM for "+psm.tag.asset_tag;
+		n.description= "Auto-generated PM for "+psm.tag.asset_tag;
+		var due_date_var = new GlideDateTime(psm.date_scheduled);
+		if(psm.u_frequency < 2 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(1);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 3 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(2);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 4 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(3);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 5 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(4);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 6 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(5);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 7 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(6);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 8 && psm.u_time == "D") {
+			//			n.u_contact = "Frequency = " + psm.u_frequency + " Time = " + psm.u_time;
+			due_date_var.addDaysLocalTime(7);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 9 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(8);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 10 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(9);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 11 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(10);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 12 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(11);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 13 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(12);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 14 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(13);
+			n.due_date = due_date_var;
+		}
+		else if(psm.u_frequency < 15 && psm.u_time == "D" || psm.u_frequency < 2 && psm.u_time == "W") {
+			due_date_var.addDaysLocalTime(14);
+			n.due_date = due_date_var;
+		}
+		else {
+			due_date_var.addDaysLocalTime(30);
+			n.due_date = due_date_var;
+		}
+		
+		
+		n.insert();
+	}
+	gs.info("Completed scheduled job: " + jobName, source);
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-03-16 17:19:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8fac8d216f65360013dd8ebf2c3ee438</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>MM Scheduled Maintenance</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sysauto_script_8fac8d216f65360013dd8ebf2c3ee438</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-31 23:55:32</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

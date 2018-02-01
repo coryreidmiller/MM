@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_charge" label="CHARGE" language="en" table="x_lahc_bldg_svc_wo_aims_ne_labor_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_charge</element>
+            <help/>
+            <hint/>
+            <label>CHARGE</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_aims_ne_labor_test</name>
+            <plural>CHARGEs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-05-07 23:10:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9e6352d66f2a360013dd8ebf2c3ee4fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>CHARGE</sys_name>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_documentation_x_lahc_bldg_svc_wo_aims_ne_labor_test_u_charge_en</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-06-17 04:16:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

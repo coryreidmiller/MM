@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="BM Assets SJ" max_length="40" name="x_lahc_bldg_svc_wo_bm_assets_sj" type="collection">
+        <element attributes="import_attribute_name=ASSET_NUM" label="ASSET_NUM" max_length="40" name="u_asset_num" type="string"/>
+        <element attributes="import_attribute_name=ASSET TAG" label="ASSET TAG" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="import_attribute_name=BUILDING" label="BUILDING" max_length="40" name="u_building" type="string"/>
+        <element attributes="import_attribute_name=CONDITION" label="CONDITION" max_length="40" name="u_condition" type="string"/>
+        <element attributes="import_attribute_name=CONDITION_DESC" label="CONDITION_DESC" max_length="40" name="u_condition_desc" type="string"/>
+        <element attributes="import_attribute_name=COST_CTR" label="COST_CTR" max_length="40" name="u_cost_ctr" type="string"/>
+        <element attributes="import_attribute_name=COST_CTR_DESC" label="COST_CTR_DESC" max_length="40" name="u_cost_ctr_desc" type="string"/>
+        <element attributes="import_attribute_name=DESCRIPTION" label="DESCRIPTION" max_length="40" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT CLASS" label="EQUIPMENT CLASS" max_length="40" name="u_equipment_class" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT STATUS" label="EQUIPMENT STATUS" max_length="40" name="u_equipment_status" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT TYPE" label="EQUIPMENT TYPE" max_length="56" name="u_equipment_type" type="string"/>
+        <element attributes="import_attribute_name=EQUIP TYPE CODE" label="EQUIP TYPE CODE" max_length="40" name="u_equip_type_code" type="string"/>
+        <element attributes="import_attribute_name=EQU_MODEL_NAME" label="EQU_MODEL_NAME" max_length="40" name="u_equ_model_name" type="string"/>
+        <element attributes="import_attribute_name=FACILITY_DESC" label="FACILITY_DESC" max_length="40" name="u_facility_desc" type="string"/>
+        <element attributes="import_attribute_name=IN SERVICE DATE" label="IN SERVICE DATE" max_length="40" name="u_in_service_date" type="string"/>
+        <element attributes="import_attribute_name=Location" label="Location" max_length="48" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=LOCATION_DESC" label="LOCATION_DESC" max_length="50" name="u_location_desc" type="string"/>
+        <element attributes="import_attribute_name=MANUFACTURER" label="MANUFACTURER" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=MODEL NUMBER" label="MODEL NUMBER" max_length="40" name="u_model_number" type="string"/>
+        <element attributes="import_attribute_name=ORIGINAL MANUFACTURER" label="ORIGINAL MANUFACTURER" max_length="40" name="u_original_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=PO NUMBER" label="PO NUMBER" max_length="40" name="u_po_number" type="string"/>
+        <element attributes="import_attribute_name=PURCHASE COST" label="PURCHASE COST" max_length="15" name="u_purchase_cost" type="decimal"/>
+        <element attributes="import_attribute_name=PURCHASE DATE" label="PURCHASE DATE" max_length="40" name="u_purchase_date" type="string"/>
+        <element attributes="import_attribute_name=RESP_CTR" label="RESP_CTR" max_length="40" name="u_resp_ctr" type="string"/>
+        <element attributes="import_attribute_name=RESP_CTR_DESC" label="RESP_CTR_DESC" max_length="40" name="u_resp_ctr_desc" type="string"/>
+        <element attributes="import_attribute_name=SERIAL NUMBER" label="SERIAL NUMBER" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=SERVICE DEPARTMENT" label="SERVICE DEPARTMENT" max_length="40" name="u_service_department" type="string"/>
+        <element attributes="import_attribute_name=SERVICE DEPT CODE" label="SERVICE DEPT CODE" max_length="40" name="u_service_dept_code" type="string"/>
+        <element attributes="import_attribute_name=SITE_ID" label="SITE_ID" max_length="40" name="u_site_id" type="string"/>
+        <element attributes="import_attribute_name=SUPPLIER" label="SUPPLIER" max_length="40" name="u_supplier" type="string"/>
+        <element attributes="import_attribute_name=USEFUL_LIFE" label="USEFUL_LIFE" max_length="40" name="u_useful_life" type="integer"/>
+        <element attributes="import_attribute_name=Warranty Date" label="Warranty Date" max_length="40" name="u_warranty_date" type="string"/>
+    </element>
+</database>

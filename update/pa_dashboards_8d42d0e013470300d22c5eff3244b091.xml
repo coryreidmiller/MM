@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <group/>
+        <groups name="Maintenance SuperUser">7fcd54872b060200eddb2e1219da1538</groups>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Admin Dashboard</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <role_override>true</role_override>
+        <roles/>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-12-11 20:00:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8d42d0e013470300d22c5eff3244b091</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Admin Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>pa_dashboards_8d42d0e013470300d22c5eff3244b091</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-19 19:43:31</sys_updated_on>
+        <users>64c0bfbcacc95000ac148fcc9e538065,5dc0ffbcacc95000ac148fcc9e538051,15c0ffbcacc95000ac148fcc9e53805f</users>
+        <visible_to>3</visible_to>
+    </pa_dashboards>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Maintenance Contact Types" max_length="40" name="x_lahc_bldg_svc_wo_contact_types" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

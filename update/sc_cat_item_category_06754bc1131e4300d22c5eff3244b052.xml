@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Locksmith Work Order Request">0e754bc1131e4300d22c5eff3244b050</sc_cat_item>
+        <sc_category display_value="Maintenance">e00d733c6f5e320013dd8ebf2c3ee4be</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-11-06 15:31:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>06754bc1131e4300d22c5eff3244b052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance.Locksmith Work Order Request</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sc_cat_item_category_06754bc1131e4300d22c5eff3244b052</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-11-06 15:31:49</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

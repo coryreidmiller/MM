@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Equipment Type" max_length="40" name="x_lahc_bldg_svc_wo_equipment_type" type="collection">
+        <element label="Class Code" max_length="40" name="class_code" type="string"/>
+        <element label="Class Desc" max_length="40" name="class_desc" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element display="true" label="Description" max_length="40" name="description" type="string"/>
+        <element label="Risk_1_Desc" max_length="40" name="risk_1_desc" type="string"/>
+        <element label="Risk_2_Desc" max_length="40" name="risk_2_desc" type="string"/>
+        <element label="Risk_3_Desc" max_length="40" name="risk_3_desc" type="string"/>
+        <element label="Risk_4_Desc" max_length="40" name="risk_4_desc" type="string"/>
+        <element label="Risk_5_Desc" max_length="40" name="risk_5_desc" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_lahc_bldg_svc_wo.super_user" name="x_lahc_bldg_svc_wo.super_user">e84cee1b6f1ab20013dd8ebf2c3ee4d4</contains>
+        <role display_value="x_lahc_bldg_svc_wo.admin" name="x_lahc_bldg_svc_wo.admin">226caa1b6f1ab20013dd8ebf2c3ee46f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-04-28 17:17:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e98c661b6f1ab20013dd8ebf2c3ee490</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_lahc_bldg_svc_wo.super_user.x_lahc_bldg_svc_wo.admin</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_user_role_contains_e98c661b6f1ab20013dd8ebf2c3ee490</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-06-17 04:16:31</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Recommendations" max_length="40" name="x_lahc_bldg_svc_wo_mm_recommendations" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element display="true" label="Recommendation" max_length="40" name="recommendation" type="string"/>
+    </element>
+</database>

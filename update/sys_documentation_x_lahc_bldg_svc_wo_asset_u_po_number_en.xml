@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_po_number" label="Purchase Order" language="en" table="x_lahc_bldg_svc_wo_asset">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_po_number</element>
+            <help/>
+            <hint/>
+            <label>Purchase Order</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_asset</name>
+            <plural>Purchase Orders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:42:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a78bae466f81320013dd8ebf2c3ee44a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Purchase Order</sys_name>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_documentation_x_lahc_bldg_svc_wo_asset_u_po_number_en</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-06-17 04:16:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

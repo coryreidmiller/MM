@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="BS WO SJ" max_length="40" name="x_lahc_bldg_svc_wo_bs_wo_sj" type="collection">
+        <element attributes="import_attribute_name=ASSET TAG" label="ASSET TAG" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="import_attribute_name=Cost Center" label="Cost Center" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="import_attribute_name=Cost Center Code" label="Cost Center Code" max_length="40" name="u_cost_center_code" type="integer"/>
+        <element attributes="import_attribute_name=PROBLEM" label="PROBLEM" max_length="40" name="u_problem" type="string"/>
+        <element attributes="import_attribute_name=REQST_DATETIME" label="REQST_DATETIME" max_length="40" name="u_reqst_datetime" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Room" label="Room" max_length="40" name="u_room" type="string"/>
+        <element attributes="import_attribute_name=Site" label="Site" max_length="48" name="u_site" type="string"/>
+        <element attributes="import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=WORK ORDER" label="WORK ORDER" max_length="40" name="u_work_order" type="integer"/>
+        <element attributes="import_attribute_name=Work Order Type" label="Work Order Type" max_length="40" name="u_work_order_type" type="string"/>
+        <element attributes="import_attribute_name=WO_NOTES" label="WO_NOTES" max_length="93" name="u_wo_notes" type="string"/>
+    </element>
+</database>

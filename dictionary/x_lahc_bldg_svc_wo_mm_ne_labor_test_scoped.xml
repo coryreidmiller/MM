@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM_NE_LABOR_TEST_scoped" max_length="40" name="x_lahc_bldg_svc_wo_mm_ne_labor_test_scoped" type="collection">
+        <element label="A" max_length="40" name="u_a" type="string"/>
+        <element attributes="import_attribute_name=ACTION" label="ACTION" max_length="40" name="u_action" type="string"/>
+        <element attributes="import_attribute_name=BILLABLE" label="BILLABLE" max_length="40" name="u_billable" type="string"/>
+        <element label="CHARGE" max_length="40" name="u_charge" type="string"/>
+        <element attributes="import_attribute_name=CHG_RATE" label="CHG_RATE" max_length="15" name="u_chg_rate" type="decimal"/>
+        <element attributes="import_attribute_name=DONE_DATETIME" label="DONE_DATETIME" max_length="40" name="u_done_datetime" type="glide_date_time"/>
+        <element attributes="import_attribute_name=EMPLOYEE" label="EMPLOYEE" max_length="40" name="u_employee" type="string"/>
+        <element attributes="import_attribute_name=FACILITY" label="FACILITY" max_length="40" name="u_facility" type="string"/>
+        <element attributes="import_attribute_name=HOURS" label="HOURS" max_length="40" name="u_hours" type="string"/>
+        <element label="L" max_length="40" name="u_l" type="string"/>
+        <element label="M" max_length="40" name="u_m" type="string"/>
+        <element attributes="import_attribute_name=RESPONSE" label="RESPONSE" max_length="40" name="u_response" type="string"/>
+        <element attributes="import_attribute_name=SEQUENCE" label="SEQUENCE" max_length="40" name="u_sequence" type="string"/>
+        <element label="WCT_ID" max_length="40" name="u_wct_id" type="string"/>
+        <element attributes="import_attribute_name=WORK_TYPE" label="WORK_TYPE" max_length="40" name="u_work_type" type="string"/>
+        <element attributes="import_attribute_name=WO_NUMBER" label="WO_NUMBER" max_length="40" name="u_wo_number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_lahc_bldg_svc_wo_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with a web page</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>887d26866f81320013dd8ebf2c3ee43b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Issue with a web page</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with email</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c07d26866f81320013dd8ebf2c3ee43c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Issue with email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue with networking</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>487d26866f81320013dd8ebf2c3ee43c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Issue with networking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New employee hire</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cc7d26866f81320013dd8ebf2c3ee43c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>New employee hire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for a Blackberry</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>447d26866f81320013dd8ebf2c3ee43d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Request for a Blackberry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for a new service</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>5</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c87d26866f81320013dd8ebf2c3ee43d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Request for a new service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for help</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>6</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>407d26866f81320013dd8ebf2c3ee43e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Request for help</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for new or upgraded hardware</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>7</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c47d26866f81320013dd8ebf2c3ee43e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Request for new or upgraded hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request for new or upgraded software</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>8</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4c7d26866f81320013dd8ebf2c3ee43e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Request for new or upgraded software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reset my password</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sequence>9</sequence>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c07d26866f81320013dd8ebf2c3ee43f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 16:51:05</sys_updated_on>
+            <value>Reset my password</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <name>x_lahc_bldg_svc_wo_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 16:51:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e8c28d531353320053a75d422244b0d2</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>short_description</sys_name>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_choice_x_lahc_bldg_svc_wo_table_short_description</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-06-17 04:15:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

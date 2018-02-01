@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM_WO_NE" max_length="40" name="x_lahc_bldg_svc_wo_mm_wo_ne" type="collection">
+        <element attributes="import_attribute_name=ASSET TAG" label="ASSET TAG" max_length="40" name="u_asset_tag" type="string"/>
+        <element attributes="import_attribute_name=Assignment Group" label="Assignment Group" max_length="40" name="u_assignment_group" type="string"/>
+        <element label="Closed On" max_length="40" name="u_closed_on" type="string"/>
+        <element attributes="import_attribute_name=CONTACT" label="CONTACT" max_length="200" name="u_contact" type="string"/>
+        <element attributes="import_attribute_name=Cost Center" label="Cost Center" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="import_attribute_name=DUE DATE" label="DUE DATE" max_length="40" name="u_due_date" type="glide_date_time"/>
+        <element attributes="import_attribute_name=FACILITY" label="FACILITY" max_length="40" name="u_facility" type="string"/>
+        <element attributes="import_attribute_name=FREQUENCY" label="FREQUENCY" max_length="40" name="u_frequency" type="integer"/>
+        <element attributes="import_attribute_name=FREQ_UNIT" label="FREQ_UNIT" max_length="40" name="u_freq_unit" type="string"/>
+        <element label="Location Site" max_length="40" name="u_location_site" type="string"/>
+        <element attributes="import_attribute_name=NUMBER" label="NUMBER" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=OPENED ON" label="OPENED ON" max_length="40" name="u_opened_on" type="glide_date_time"/>
+        <element attributes="import_attribute_name=PROBLEM" label="PROBLEM" max_length="498" name="u_problem" type="string"/>
+        <element attributes="import_attribute_name=PROC_JOBTY" label="PROC_JOBTY" max_length="40" name="u_proc_jobty" type="string"/>
+        <element attributes="import_attribute_name=REQUESTOR" label="REQUESTOR" max_length="200" name="u_requestor" type="string"/>
+        <element label="REQUESTOR opened by" max_length="40" name="u_requestor_opened_by" type="string"/>
+        <element attributes="import_attribute_name=Resolution" label="Resolution" max_length="551" name="u_resolution" type="string"/>
+        <element attributes="import_attribute_name=Room" label="Room" max_length="40" name="u_room" type="string"/>
+        <element attributes="import_attribute_name=STATE" label="STATE" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=STAT_DATETIME" label="STAT_DATETIME" max_length="40" name="u_stat_datetime" type="glide_date_time"/>
+        <element attributes="import_attribute_name=TRADE_EMP" label="TRADE_EMP" max_length="40" name="u_trade_emp" type="string"/>
+        <element label="U" max_length="40" name="u_u" type="string"/>
+        <element attributes="import_attribute_name=WORKER TYPE" label="WORKER TYPE" max_length="40" name="u_worker_type" type="string"/>
+        <element attributes="import_attribute_name=WORK ORDER TYPE" label="WORK ORDER TYPE" max_length="40" name="u_work_order_type" type="string"/>
+    </element>
+</database>

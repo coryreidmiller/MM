@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Status" max_length="40" name="x_lahc_bldg_svc_wo_status" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="u_status_code" type="string"/>
+    </element>
+</database>

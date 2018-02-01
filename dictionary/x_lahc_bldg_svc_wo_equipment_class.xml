@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance Equipment Class" max_length="40" name="x_lahc_bldg_svc_wo_equipment_class" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element display="true" label="Description" max_length="40" name="u_description" type="string"/>
+    </element>
+</database>

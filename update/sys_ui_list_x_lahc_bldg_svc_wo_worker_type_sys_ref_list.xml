@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_lahc_bldg_svc_wo_worker_type" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_lahc_bldg_svc_wo_worker_type" element="NULL" name="x_lahc_bldg_svc_wo_worker_type" parent="NULL" relationship="NULL" sys_domain="global" view="bc95601128001000ac14b5e1926668f8">078727866fc1320013dd8ebf2c3ee46c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 21:04:58</sys_created_on>
+            <sys_id>c78727866fc1320013dd8ebf2c3ee46c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-02-21 21:04:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_lahc_bldg_svc_wo_worker_type</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 21:04:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>078727866fc1320013dd8ebf2c3ee46c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_lahc_bldg_svc_wo_worker_type</sys_name>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_ui_list_x_lahc_bldg_svc_wo_worker_type_sys_ref_list</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-06-17 04:17:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">bc95601128001000ac14b5e1926668f8</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

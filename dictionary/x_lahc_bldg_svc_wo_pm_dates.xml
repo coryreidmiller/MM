@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Maintenance PM Dates" max_length="40" name="x_lahc_bldg_svc_wo_pm_dates" sizeclass="271116" type="collection">
+        <element label="Date Scheduled" max_length="40" name="date_scheduled" read_only="true" type="glide_date"/>
+        <element label="PM Sched No." max_length="32" name="pm_sched_no" read_only="true" reference="x_lahc_bldg_svc_wo_pm" type="reference"/>
+        <element label="Equipment Tag" max_length="32" name="tag" read_only="true" reference="x_lahc_bldg_svc_wo_asset" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Frequency" max_length="40" name="u_frequency" read_only="true" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="PM Date Number" max_length="40" name="u_number" read_only="true" type="string"/>
+        <element label="Procedure" max_length="32" name="u_procedure" read_only="true" reference="x_lahc_bldg_svc_wo_pm_procedure" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Time" max_length="40" name="u_time" read_only="true" type="string"/>
+        <index name="index">
+            <element name="pm_sched_no"/>
+        </index>
+        <index name="index2">
+            <element name="u_procedure"/>
+        </index>
+        <index name="index3">
+            <element name="tag"/>
+        </index>
+    </element>
+</database>

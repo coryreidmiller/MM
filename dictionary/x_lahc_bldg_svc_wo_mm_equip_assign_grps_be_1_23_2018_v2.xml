@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM EQUIP ASSIGN GRPS BE 1.23.2018 v2" max_length="40" name="x_lahc_bldg_svc_wo_mm_equip_assign_grps_be_1_23_2018_v2" type="collection">
+        <element attributes="import_attribute_name=ASSIGNED TO,edge_encryption_enabled=true" label="ASSIGNED TO" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=ASSIGNMENT GROUP,edge_encryption_enabled=true" label="ASSIGNMENT GROUP" max_length="40" name="u_assignment_group" type="string"/>
+        <element attributes="import_attribute_name=EQUIPMENT NUMBER,edge_encryption_enabled=true" label="EQUIPMENT NUMBER" max_length="40" name="u_equipment_number" type="string"/>
+        <element attributes="import_attribute_name=PROCEDURE,edge_encryption_enabled=true" label="PROCEDURE" max_length="40" name="u_procedure" type="string"/>
+        <element attributes="import_attribute_name=SITE,edge_encryption_enabled=true" label="SITE" max_length="40" name="u_site" type="string"/>
+    </element>
+</database>

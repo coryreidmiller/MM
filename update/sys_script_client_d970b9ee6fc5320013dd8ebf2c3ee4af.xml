@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>hours</field>
+        <global>true</global>
+        <messages/>
+        <name>Calc Labor on Hours Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+    var qty = g_form.getValue('hours');
+
+    if (qty == '' || newValue == '') {
+    g_form.setValue('total_cost', '0.00');
+        return;
+    }
+
+    var tCost = parseFloat(qty) * parseFloat(g_form.getValue('rate'));
+    var pCost = tCost.toFixed(2);
+
+    g_form.setValue('total_cost', pCost);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-02-23 01:42:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d970b9ee6fc5320013dd8ebf2c3ee4af</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calc Labor on Hours Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_script_client_d970b9ee6fc5320013dd8ebf2c3ee4af</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-06-17 04:15:12</sys_updated_on>
+        <table>x_lahc_bldg_svc_wo_labor</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM RISKS SJE" max_length="40" name="x_lahc_bldg_svc_wo_mm_risks_sje" type="collection">
+        <element attributes="import_attribute_name=FACILITY,edge_encryption_enabled=true" label="FACILITY" max_length="40" name="u_facility" type="string"/>
+        <element attributes="import_attribute_name=NAME,edge_encryption_enabled=true" label="NAME" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=POINTS" label="POINTS" max_length="40" name="u_points" type="integer"/>
+        <element attributes="import_attribute_name=RISK,edge_encryption_enabled=true" label="RISK" max_length="40" name="u_risk" type="string"/>
+        <element attributes="import_attribute_name=TYPE" label="TYPE" max_length="40" name="u_type" type="integer"/>
+    </element>
+</database>

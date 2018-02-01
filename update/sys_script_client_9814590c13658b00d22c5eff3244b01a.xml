@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>response</field>
+        <global>true</global>
+        <messages/>
+        <name>Copy Response to Action</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading)
+      return;
+
+   if (newValue == '') {
+      g_form.setValue('details', '');
+      return;
+   }
+
+   if (!g_form.getControl('details'))
+      return;
+
+   var caller = g_form.getReference('response', setAction);
+}
+function setAction(caller) {
+   if (caller)
+  
+       g_form.setValue('details', caller.description);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2017-09-26 21:58:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>9814590c13658b00d22c5eff3244b01a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Copy Response to Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sys_script_client_9814590c13658b00d22c5eff3244b01a</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2017-12-04 21:24:46</sys_updated_on>
+        <table>x_lahc_bldg_svc_wo_labor</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

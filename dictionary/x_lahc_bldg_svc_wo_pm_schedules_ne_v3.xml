@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="PM Schedules NE v3" max_length="40" name="x_lahc_bldg_svc_wo_pm_schedules_ne_v3" type="collection">
+        <element attributes="import_attribute_name=END DATE" label="END DATE" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="import_attribute_name=EQUIPMENT TAG,edge_encryption_enabled=true" label="EQUIPMENT TAG" max_length="40" name="u_equipment_tag" type="string"/>
+        <element attributes="import_attribute_name=START DATE" label="START DATE" max_length="40" name="u_start_date" type="glide_date_time"/>
+    </element>
+</database>

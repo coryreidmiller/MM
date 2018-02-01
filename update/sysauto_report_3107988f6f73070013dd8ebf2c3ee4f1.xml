@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list name="Maintenance HP">ef3009366f89320013dd8ebf2c3ee48e</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of MMW All Open Work for user</name>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <report display_value="MMW All Open Work for user">ecb6148f6f73070013dd8ebf2c3ee4d9</report>
+        <report_body/>
+        <report_title>open werk</report_title>
+        <run_as display_value="Cory Miller">64c0bfbcacc95000ac148fcc9e538065</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:05:00</run_period>
+        <run_start>2018-01-25 21:31:40</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>periodically</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-01-25 21:33:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3107988f6f73070013dd8ebf2c3ee4f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scheduled Execution of MMW All Open Work for user</sys_name>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>sysauto_report_3107988f6f73070013dd8ebf2c3ee4f1</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-01-26 21:06:31</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>64c0bfbcacc95000ac148fcc9e538065</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

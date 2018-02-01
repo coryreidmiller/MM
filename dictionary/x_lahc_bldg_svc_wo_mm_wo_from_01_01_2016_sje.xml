@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="MM WO from 01.01.2016 SJE" max_length="40" name="x_lahc_bldg_svc_wo_mm_wo_from_01_01_2016_sje" sizeclass="41089" type="collection">
+        <element attributes="import_attribute_name=ASSIGNED TO,edge_encryption_enabled=true" label="ASSIGNED TO" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=ASSIGNMENT GROUP,edge_encryption_enabled=true" label="ASSIGNMENT GROUP" max_length="40" name="u_assignment_group" type="string"/>
+        <element attributes="import_attribute_name=CHARGE CENTER,edge_encryption_enabled=true" label="CHARGE CENTER" max_length="40" name="u_charge_center" type="string"/>
+        <element attributes="import_attribute_name=CLOSED" label="CLOSED" max_length="40" name="u_closed" type="glide_date_time"/>
+        <element attributes="import_attribute_name=CONTACT,edge_encryption_enabled=true" label="CONTACT" max_length="55" name="u_contact" type="string"/>
+        <element attributes="import_attribute_name=DEPT. NUMBER,edge_encryption_enabled=true" label="DEPT. NUMBER" max_length="40" name="u_dept__number" type="string"/>
+        <element attributes="import_attribute_name=DUE DATE" label="DUE DATE" max_length="40" name="u_due_date" type="glide_date_time"/>
+        <element attributes="import_attribute_name=EQUIP TAG,edge_encryption_enabled=true" label="EQUIP TAG" max_length="40" name="u_equip_tag" type="string"/>
+        <element attributes="import_attribute_name=JOB TYPE,edge_encryption_enabled=true" label="JOB TYPE" max_length="40" name="u_job_type" type="string"/>
+        <element attributes="import_attribute_name=LOCATION (ROOM),edge_encryption_enabled=true" label="LOCATION (ROOM)" max_length="62" name="u_location__room_" type="string"/>
+        <element attributes="import_attribute_name=LOCATION (SITE),edge_encryption_enabled=true" label="LOCATION (SITE)" max_length="40" name="u_location__site_" type="string"/>
+        <element attributes="import_attribute_name=NUMBER,edge_encryption_enabled=true" label="NUMBER" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=OPENED" label="OPENED" max_length="40" name="u_opened" type="glide_date_time"/>
+        <element attributes="import_attribute_name=PERFORMED BY,edge_encryption_enabled=true" label="PERFORMED BY" max_length="40" name="u_performed_by" type="string"/>
+        <element attributes="import_attribute_name=PERFORMED DATE" label="PERFORMED DATE" max_length="40" name="u_performed_date" type="glide_date_time"/>
+        <element attributes="import_attribute_name=PROBLEM,edge_encryption_enabled=true" label="PROBLEM" max_length="500" name="u_problem" type="string"/>
+        <element attributes="import_attribute_name=PROCEDURE,edge_encryption_enabled=true" label="PROCEDURE" max_length="40" name="u_procedure" type="string"/>
+        <element attributes="import_attribute_name=REQUESTED BY,edge_encryption_enabled=true" label="REQUESTED BY" max_length="42" name="u_requested_by" type="string"/>
+        <element attributes="import_attribute_name=STATE,edge_encryption_enabled=true" label="STATE" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=work notes,edge_encryption_enabled=true" label="work notes" max_length="706" name="u_work_notes" type="string"/>
+        <element attributes="import_attribute_name=WORK ORDER TYPE,edge_encryption_enabled=true" label="WORK ORDER TYPE" max_length="40" name="u_work_order_type" type="string"/>
+    </element>
+</database>

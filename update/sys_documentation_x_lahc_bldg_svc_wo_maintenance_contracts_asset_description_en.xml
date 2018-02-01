@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="asset_description" label="Equipment Description" language="en" table="x_lahc_bldg_svc_wo_maintenance_contracts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>asset_description</element>
+            <help/>
+            <hint/>
+            <label>Equipment Description</label>
+            <language>en</language>
+            <name>x_lahc_bldg_svc_wo_maintenance_contracts</name>
+            <plural>Equipment Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-02-21 19:00:28</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>5b0b830e6f81320013dd8ebf2c3ee47d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Equipment Description</sys_name>
+            <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+            <sys_update_name>sys_documentation_x_lahc_bldg_svc_wo_maintenance_contracts_asset_description_en</sys_update_name>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2017-10-12 20:22:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
