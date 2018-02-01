@@ -3,6 +3,8 @@
     <element attributes="live_feed=true" audit="true" extends="task" label="Maintenance Work Orders" max_length="40" name="x_lahc_bldg_svc_wo_table" sizeclass="525265" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Dept. Number" max_length="40" name="dept_number" read_only="true" type="string"/>
         <element label="PM Procedure" max_length="32" name="pm_procedure" reference="x_lahc_bldg_svc_wo_pm_procedure" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Tag Description" max_length="40" name="tag_description" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tag Type" max_length="40" name="tag_type" read_only="true" reference="x_lahc_bldg_svc_wo_equipment_type" type="reference"/>
         <element label="Asset Description" max_length="40" name="u_asset_description" read_only="true" type="string"/>
         <element label="Equipment Tag" max_length="32" name="u_asset_tag" reference="x_lahc_bldg_svc_wo_asset" type="reference"/>
         <element label="Performed by" max_length="32" name="u_bldg_svcs_performed_by" reference="sys_user" type="reference"/>
