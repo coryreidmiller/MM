@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2018-02-02 01:43:39">
+    <sys_portal action="delete_multiple" query="page=2f5dc1596f4c970013dd8ebf2c3ee4d3">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="">2f5dc1596f4c970013dd8ebf2c3ee4d3</page>
+                <summary/>
+                <sys_created_by>CRMILLER</sys_created_by>
+                <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                <sys_id>a351d5996f4c970013dd8ebf2c3ee4fb</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>CRMILLER</sys_updated_by>
+                <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:53">a351d5996f4c970013dd8ebf2c3ee4fb</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                        <sys_id>2f51d5996f4c970013dd8ebf2c3ee4fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                        <value>content_block_header</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:53">a351d5996f4c970013dd8ebf2c3ee4fb</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                        <sys_id>6b51d5996f4c970013dd8ebf2c3ee4fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                        <value>Whiteboard Header</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:53">a351d5996f4c970013dd8ebf2c3ee4fb</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                        <sys_id>a751d5996f4c970013dd8ebf2c3ee4fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:53">a351d5996f4c970013dd8ebf2c3ee4fb</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                        <sys_id>e351d5996f4c970013dd8ebf2c3ee4fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                        <value>6c024ef575e4a100a4df37f24c0b3442</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:53">a351d5996f4c970013dd8ebf2c3ee4fb</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                        <sys_id>ef51d5996f4c970013dd8ebf2c3ee4fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                        <value>2f5dc1596f4c970013dd8ebf2c3ee4d3</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>2</offset>
+                <page display_value="">2f5dc1596f4c970013dd8ebf2c3ee4d3</page>
+                <summary/>
+                <sys_created_by>CRMILLER</sys_created_by>
+                <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                <sys_id>ab51d5996f4c970013dd8ebf2c3ee4fe</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>CRMILLER</sys_updated_by>
+                <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>2751d5996f4c970013dd8ebf2c3ee4ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>6351d5996f4c970013dd8ebf2c3ee4ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>6f51d5996f4c970013dd8ebf2c3ee4ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>a7b7bfbd2b27920026510a5319da155c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>ab51d5996f4c970013dd8ebf2c3ee4ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>MMW My Groups Work Order Load</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>af51d5996f4c970013dd8ebf2c3ee4fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>e751d5996f4c970013dd8ebf2c3ee4ff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">ab51d5996f4c970013dd8ebf2c3ee4fe</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>eb51d5996f4c970013dd8ebf2c3ee4fe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>696ec5596f4c970013dd8ebf2c3ee462</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>1</offset>
+                <page display_value="">2f5dc1596f4c970013dd8ebf2c3ee4d3</page>
+                <summary/>
+                <sys_created_by>CRMILLER</sys_created_by>
+                <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                <sys_id>eb51d5996f4c970013dd8ebf2c3ee4fc</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>CRMILLER</sys_updated_by>
+                <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>2b51d5996f4c970013dd8ebf2c3ee4fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:53</sys_created_on>
+                        <sys_id>2f51d5996f4c970013dd8ebf2c3ee4fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:53</sys_updated_on>
+                        <value>f211da946fb3430013dd8ebf2c3ee4ce</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>6751d5996f4c970013dd8ebf2c3ee4fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>a351d5996f4c970013dd8ebf2c3ee4fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>af51d5996f4c970013dd8ebf2c3ee4fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>2f5dc1596f4c970013dd8ebf2c3ee4d3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>eb51d5996f4c970013dd8ebf2c3ee4fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>MMW My Groups Unassigned CMs and PMs</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 02-01-2018 20:32:54">eb51d5996f4c970013dd8ebf2c3ee4fc</portal_section>
+                        <sys_created_by>CRMILLER</sys_created_by>
+                        <sys_created_on>2018-02-02 01:32:54</sys_created_on>
+                        <sys_id>ef51d5996f4c970013dd8ebf2c3ee4fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>CRMILLER</sys_updated_by>
+                        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="ServiceNow Whiteboards">d0028e7575e4a100a4df37f24c0b3441</content_site>
+        <content_theme display_value="LRHS - Portal">f5c42112d00f51004fcd742b0b687cae</content_theme>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <model_id/>
+        <model_table/>
+        <name>My Groups Whiteboard</name>
+        <order/>
+        <parent_page display_value="Portal - Help Splash">580ceed60a0a0bdd00f70997a42f9440</parent_page>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-02-02 01:15:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2f5dc1596f4c970013dd8ebf2c3ee4d3</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>My Groups Whiteboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
+        <sys_update_name>content_page_2f5dc1596f4c970013dd8ebf2c3ee4d3</sys_update_name>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-02-02 01:32:54</sys_updated_on>
+        <title/>
+        <url_suffix>maintenance_my_grp</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>
