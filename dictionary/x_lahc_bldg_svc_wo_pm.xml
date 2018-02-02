@@ -9,7 +9,7 @@
         <element label="Procedure" max_length="40" name="procedure" reference="x_lahc_bldg_svc_wo_pm_procedure" type="reference"/>
         <element label="Start Date" mandatory="true" max_length="40" name="season_begin" type="glide_date"/>
         <element label="End Date" mandatory="true" max_length="40" name="season_end" type="glide_date"/>
-        <element label="Equipment Tag" max_length="32" name="tag" reference="x_lahc_bldg_svc_wo_asset" type="reference"/>
+        <element label="Equipment Tag" mandatory="true" max_length="32" name="tag" reference="x_lahc_bldg_svc_wo_asset" type="reference"/>
         <element choice="3" default="D" label="Repeat Time" mandatory="true" max_length="40" name="time" type="string">
             <choice>
                 <element label="Day" sequence="50" value="D"/>

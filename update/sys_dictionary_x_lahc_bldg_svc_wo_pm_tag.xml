@@ -26,7 +26,7 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_lahc_bldg_svc_wo_pm</name>
         <next_element/>
@@ -48,7 +48,7 @@
         <sys_created_on>2017-02-21 20:02:04</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>12a141531353320053a75d422244b0c7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Equipment Tag</sys_name>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
         <sys_policy/>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sys_dictionary_x_lahc_bldg_svc_wo_pm_tag</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-01-11 20:18:46</sys_updated_on>
+        <sys_updated_on>2018-02-02 00:46:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
