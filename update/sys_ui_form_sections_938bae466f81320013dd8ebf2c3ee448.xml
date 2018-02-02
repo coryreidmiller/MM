@@ -17,28 +17,28 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2017-10-20 15:06:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>4a9c176f13b94340d22c5eff3244b02e</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_lahc_bldg_svc_wo_asset" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">938bae466f81320013dd8ebf2c3ee448</sys_ui_form>
-            <sys_ui_section caption="Equipment Notes" display_value="Equipment Notes" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">c29c176f13b94340d22c5eff3244b02e</sys_ui_section>
-            <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-22 18:55:46</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>CRMILLER</sys_created_by>
             <sys_created_on>2017-10-20 14:55:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>fe2ad72f13b94340d22c5eff3244b0fc</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_lahc_bldg_svc_wo_asset" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">938bae466f81320013dd8ebf2c3ee448</sys_ui_form>
             <sys_ui_section caption="Equipment Risk" display_value="Equipment Risk" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">3a2ad72f13b94340d22c5eff3244b0fc</sys_ui_section>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-22 18:55:46</sys_updated_on>
+            <sys_updated_on>2018-02-01 22:32:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>CRMILLER</sys_created_by>
+            <sys_created_on>2017-10-20 15:06:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a9c176f13b94340d22c5eff3244b02e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lahc_bldg_svc_wo_asset" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">938bae466f81320013dd8ebf2c3ee448</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_lahc_bldg_svc_wo_asset" sys_domain="global" view="Default view">c29c176f13b94340d22c5eff3244b02e</sys_ui_section>
+            <sys_updated_by>CRMILLER</sys_updated_by>
+            <sys_updated_on>2018-02-01 22:32:25</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>

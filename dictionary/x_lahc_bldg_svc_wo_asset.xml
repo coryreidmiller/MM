@@ -2,7 +2,7 @@
 <database>
     <element audit="true" label="Maintenance Equipment" max_length="40" name="x_lahc_bldg_svc_wo_asset" sizeclass="6478" type="collection">
         <element display="true" label="Equipment Tag" max_length="40" name="asset_tag" type="string"/>
-        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element dependent="u_assignment_group" dependent_on_field="u_assignment_group" label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Assignment group" max_length="32" name="u_assignment_group" reference="sys_user_group" reference_qual="nameLIKEmaintenance^EQ" reference_qual_condition="nameLIKEmaintenance^EQ" type="reference"/>
         <element label="Cost Center" max_length="32" name="u_cost_center" reference="cmn_cost_center" type="reference"/>
         <element label="Department" max_length="32" name="u_department" reference="cmn_department" type="reference"/>
@@ -10,7 +10,9 @@
         <element label="Device ID" max_length="40" name="u_device_id" type="string"/>
         <element label="ED Value" max_length="40" name="u_ed_value" type="string"/>
         <element label="Equipment Class" max_length="40" name="u_equipment_class" reference="x_lahc_bldg_svc_wo_equipment_class" type="reference"/>
-        <element label="Equipment Status" max_length="40" name="u_equipment_status" reference="x_lahc_bldg_svc_wo_device_status" type="reference"/>
+        <element choice="3" default="In Use" label="Equipment Status" max_length="40" name="u_equipment_status" reference="x_lahc_bldg_svc_wo_device_status" type="reference">
+            <choice/>
+        </element>
         <element label="Equipment Type" max_length="40" name="u_equipment_type" reference="x_lahc_bldg_svc_wo_equipment_type" type="reference"/>
         <element label="EQU_NOTES" max_length="1000" name="u_equ_notes" type="string"/>
         <element label="Excessive Downtime" max_length="40" name="u_excessive_downtime" type="boolean"/>
@@ -21,7 +23,7 @@
         <element label="Last Inventory" max_length="40" name="u_last_inventory_date" type="glide_date_time"/>
         <element label="Life Expectancy Exceeded" max_length="40" name="u_lee" read_only="true" type="boolean"/>
         <element label="LEE Value" max_length="40" name="u_lee_value" type="string"/>
-        <element label="Room" max_length="40" name="u_location" type="string"/>
+        <element label="Room" max_length="1000" name="u_location" type="string"/>
         <element label="Manufacturer" max_length="32" name="u_manufacturer" reference="core_company" type="reference"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" default="0" label="Material Total" max_length="15" name="u_material_total" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="B + C + D + E = Risk Factor" max_length="40" name="u_mm_risk_factor" read_only="true" type="string"/>

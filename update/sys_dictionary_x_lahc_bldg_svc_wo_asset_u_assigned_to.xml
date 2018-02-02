@@ -15,8 +15,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>u_assignment_group</dependent>
+        <dependent_on_field>u_assignment_group</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -48,7 +48,7 @@
         <sys_created_on>2017-02-21 16:39:02</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>349101531353320053a75d422244b067</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Assigned to</sys_name>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
         <sys_policy/>
@@ -56,11 +56,11 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sys_dictionary_x_lahc_bldg_svc_wo_asset_u_assigned_to</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2017-08-28 20:34:42</sys_updated_on>
+        <sys_updated_on>2018-02-01 22:48:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
