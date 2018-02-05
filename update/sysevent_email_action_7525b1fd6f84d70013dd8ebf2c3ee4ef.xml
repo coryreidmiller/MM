@@ -32,7 +32,7 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Problem: ${u_problem}</p>
+        <message_html><![CDATA[<p>${u_problem}</p>
 <p>Room: ${u_location_room}</p>
 <p>Department: ${u_requesting_department}</p>
 <p>Site: ${u_requesting_building}</p>
@@ -41,7 +41,7 @@
 <p>Contact: ${u_key_contact}</p>
 <p>Phone: ${u_contact}</p>
 <p>&nbsp;</p>
-<p>Work Order Number ${number} was opened and assigned to ${assignment_group}</p>]]></message_html>
+<p>${number} was opened and assigned to ${assignment_group}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Maint_WO.Opened</name>
@@ -63,7 +63,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>7525b1fd6f84d70013dd8ebf2c3ee4ef</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Maint_WO.Opened</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_7525b1fd6f84d70013dd8ebf2c3ee4ef</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 21:30:59</sys_updated_on>
+        <sys_updated_on>2018-02-05 23:47:13</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
