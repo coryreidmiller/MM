@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="Maintenance Management">8d136ec26f81320013dd8ebf2c3ee44a</application>
         <assessment/>
         <content_page/>
@@ -32,7 +32,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b67385766f89320013dd8ebf2c3ee48f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>My Open Work</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sys_app_module_b67385766f89320013dd8ebf2c3ee48f</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-01 20:16:17</sys_updated_on>
+        <sys_updated_on>2018-02-05 13:08:52</sys_updated_on>
         <timeline_page/>
         <title>My Open Work</title>
         <uncancelable>false</uncancelable>

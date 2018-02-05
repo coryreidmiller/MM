@@ -15,7 +15,7 @@
         <mobile_title>Maintenance Dashboard</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>35</order>
+        <order>111</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/sys_report_display.do?sysparm_report_id=5f57c4116f0c970013dd8ebf2c3ee4e5&#13;
 </query>
@@ -29,7 +29,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3ab7c8516f0c970013dd8ebf2c3ee475</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>My Open CMs Report</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sys_app_module_3ab7c8516f0c970013dd8ebf2c3ee475</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-01 20:13:08</sys_updated_on>
+        <sys_updated_on>2018-02-05 13:07:48</sys_updated_on>
         <timeline_page/>
         <title>My Open CMs Report</title>
         <uncancelable>false</uncancelable>
