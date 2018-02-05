@@ -7,10 +7,10 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_lahc_bldg_svc_wo_table</collection>
-        <condition table="x_lahc_bldg_svc_wo_table">assigned_toVALCHANGES^assigned_toNSAMEASu_requested_for^assigned_toNSAMEASu_key_contact^assigned_toNSAMEASopened_by^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="NSAMEAS" or="false" value="u_requested_for"/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="NSAMEAS" or="false" value="u_key_contact"/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="NSAMEAS" or="false" value="opened_by"/>
+        <condition table="x_lahc_bldg_svc_wo_table">assigned_toVALCHANGES^u_requested_forNSAMEASassigned_to^u_key_contactNSAMEASassigned_to^opened_byNSAMEASassigned_to^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="NSAMEAS" or="false" value="assigned_to"/>
+            <item endquery="false" field="u_key_contact" goto="false" newquery="false" operator="NSAMEAS" or="false" value="assigned_to"/>
+            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="NSAMEAS" or="false" value="assigned_to"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -53,7 +53,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Work Order  ${number} has been assigned to you.</subject>
+        <subject>${number} assigned to you.</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>BSHOEMAKER</sys_created_by>
@@ -61,7 +61,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ab100e716fc4d70013dd8ebf2c3ee43c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Maint_WO.Assigned_to</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -70,7 +70,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_ab100e716fc4d70013dd8ebf2c3ee43c</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 13:37:08</sys_updated_on>
+        <sys_updated_on>2018-02-05 16:06:48</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
