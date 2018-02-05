@@ -51,7 +51,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Work Order  ${number} assigned to ${assignment_group}</subject>
+        <subject>${number} assigned to ${assignment_group}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>BSHOEMAKER</sys_created_by>
@@ -59,7 +59,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d26d3d316fc4d70013dd8ebf2c3ee4d0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Maint_WO.Assigned_to_group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_d26d3d316fc4d70013dd8ebf2c3ee4d0</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 09:38:16</sys_updated_on>
+        <sys_updated_on>2018-02-05 13:34:45</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

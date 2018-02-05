@@ -3,7 +3,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_lahc_bldg_svc_wo_table</collection>
@@ -12,13 +12,13 @@
         </condition>
         <content_type>text/html</content_type>
         <description/>
-        <event_name>approval.cancelled</event_name>
+        <event_name>task.updated</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>event</generation_type>
         <group/>
         <group_field/>
         <importance/>
@@ -29,8 +29,7 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Problem: ${u_problem}</p>
-<p>Additional comments: ${comments}</p>
+        <message_html><![CDATA[<p>Additional comments: ${comments}</p>
 <p>Problem: ${u_problem}</p>
 <p>Site: ${u_requesting_building}</p>
 <p>Department: ${u_requesting_department}</p>
@@ -60,7 +59,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a130ca926fccd70013dd8ebf2c3ee4f1</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Maint_WO.Commented</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -69,7 +68,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_a130ca926fccd70013dd8ebf2c3ee4f1</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 09:40:07</sys_updated_on>
+        <sys_updated_on>2018-02-05 13:23:35</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
