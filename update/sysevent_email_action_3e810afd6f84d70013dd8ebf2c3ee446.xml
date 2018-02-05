@@ -46,7 +46,7 @@
         <order/>
         <push_message_only>false</push_message_only>
         <recipient_fields>u_requested_for,watch_list,u_key_contact</recipient_fields>
-        <recipient_groups/>
+        <recipient_groups name="Maintenance Notifications">578a9e5a6fccd70013dd8ebf2c3ee427</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -60,7 +60,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3e810afd6f84d70013dd8ebf2c3ee446</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Maint_WO.Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_3e810afd6f84d70013dd8ebf2c3ee446</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 07:49:56</sys_updated_on>
+        <sys_updated_on>2018-02-05 09:33:28</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

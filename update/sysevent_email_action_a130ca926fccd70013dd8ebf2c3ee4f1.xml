@@ -29,7 +29,7 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Work Order Number: ${number} has been commented.<br />Problem: ${u_problem}</p>
+        <message_html><![CDATA[<p>Problem: ${u_problem}</p>
 <p>Additional comments: ${comments}</p>
 <p>Problem: ${u_problem}</p>
 <p>Site: ${u_requesting_building}</p>
@@ -37,7 +37,8 @@
 <p>Room: ${u_location_room}</p>
 <p>Opened by: ${opened_by}</p>
 <p>Requested for: ${u_requested_for}</p>
-<p>Contact: ${u_key_contact}</p>]]></message_html>
+<p>Contact: ${u_key_contact}</p>
+<p>&nbsp;Phone: ${u_contact}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Maint_WO.Commented</name>
@@ -45,13 +46,13 @@
         <order/>
         <push_message_only>false</push_message_only>
         <recipient_fields>watch_list,u_key_contact,u_requested_for</recipient_fields>
-        <recipient_groups/>
+        <recipient_groups name="Maintenance Notifications">578a9e5a6fccd70013dd8ebf2c3ee427</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Work Order  ${number} has been opned.</subject>
+        <subject>Work Order  ${number} has been commented.</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>CRMILLER</sys_created_by>
@@ -59,7 +60,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a130ca926fccd70013dd8ebf2c3ee4f1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Maint_WO.Commented</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_a130ca926fccd70013dd8ebf2c3ee4f1</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 07:50:44</sys_updated_on>
+        <sys_updated_on>2018-02-05 09:40:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
