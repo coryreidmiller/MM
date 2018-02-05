@@ -29,10 +29,15 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Work Order Number: ${number}</p>
-<p>Resolution: ${u_resolution}<br /><br />Problem: ${u_problem}</p>
+        <message_html><![CDATA[<p>Work Order Number: ${number} has been closed.</p>
+<p>Problem: ${u_problem}</p>
+<p>Resolution: ${u_resolution}</p>
+<p>Site: ${u_requesting_building}</p>
 <p>Department: ${u_requesting_department}</p>
-<p>Location: ${location} <br />Room: ${u_location_room}<br /><br /><br /></p>
+<p>Room: ${u_location_room}</p>
+<p>Opened by: ${opened_by}</p>
+<p>Requested for: ${u_requested_for}</p>
+<p>Contact: ${u_key_contact}</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -40,14 +45,14 @@
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
-        <recipient_fields>u_requested_for,watch_list</recipient_fields>
+        <recipient_fields>u_requested_for,watch_list,u_key_contact</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Work Order  ${number} Has been closed</subject>
+        <subject>Work Order  ${number} has been closed.</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>BSHOEMAKER</sys_created_by>
@@ -55,7 +60,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3e810afd6f84d70013dd8ebf2c3ee446</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Maint_WO.Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -63,8 +68,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_3e810afd6f84d70013dd8ebf2c3ee446</sys_update_name>
-        <sys_updated_by>BSHOEMAKER</sys_updated_by>
-        <sys_updated_on>2018-02-03 19:02:24</sys_updated_on>
+        <sys_updated_by>CRMILLER</sys_updated_by>
+        <sys_updated_on>2018-02-05 07:49:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
