@@ -2,13 +2,13 @@
 <record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2018-01-23 13:21:05</last_registered_on>
+        <last_registered_on>2018-02-05 23:20:59</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>CRMILLER</sys_created_by>
         <sys_created_on>2018-01-04 09:07:07</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>aa3325c8136b8700d22c5eff3244b0fd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>58dbbdf7f351b1de2b7d052ca5533916848419a209eaf2681ab18933b771a136</sys_name>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
         <sys_policy/>
@@ -18,7 +18,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sys_push_notif_app_install_aa3325c8136b8700d22c5eff3244b0fd</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-01-23 13:21:05</sys_updated_on>
+        <sys_updated_on>2018-02-05 23:20:59</sys_updated_on>
         <sys_user_id display_value="Cory Miller">64c0bfbcacc95000ac148fcc9e538065</sys_user_id>
         <token>58dbbdf7f351b1de2b7d052ca5533916848419a209eaf2681ab18933b771a136</token>
     </sys_push_notif_app_install>
