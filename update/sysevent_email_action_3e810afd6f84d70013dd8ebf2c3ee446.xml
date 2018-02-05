@@ -7,10 +7,11 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_lahc_bldg_svc_wo_table</collection>
-        <condition table="x_lahc_bldg_svc_wo_table">u_wo_status=9b0e27e313f94340d22c5eff3244b0a4^assigned_toNSAMEASu_requested_for^assigned_toNSAMEASu_key_contact^assigned_toNSAMEASopened_by^EQ<item display_table="x_lahc_bldg_svc_wo_status" display_value="Closed" endquery="false" field="u_wo_status" goto="false" newquery="false" operator="=" or="false" value="9b0e27e313f94340d22c5eff3244b0a4"/>
+        <condition table="x_lahc_bldg_svc_wo_table">u_wo_status=9b0e27e313f94340d22c5eff3244b0a4^assigned_toNSAMEASu_requested_for^assigned_toNSAMEASu_key_contact^assigned_toNSAMEASopened_by^u_work_order_type=68322c626fc5320013dd8ebf2c3ee4ef^EQ<item display_table="x_lahc_bldg_svc_wo_status" display_value="Closed" endquery="false" field="u_wo_status" goto="false" newquery="false" operator="=" or="false" value="9b0e27e313f94340d22c5eff3244b0a4"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="NSAMEAS" or="false" value="u_requested_for"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="NSAMEAS" or="false" value="u_key_contact"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="NSAMEAS" or="false" value="opened_by"/>
+            <item display_table="x_lahc_bldg_svc_wo_work_order_type" display_value="Corrective Maintenance" endquery="false" field="u_work_order_type" goto="false" newquery="false" operator="=" or="false" value="68322c626fc5320013dd8ebf2c3ee4ef"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -32,16 +33,16 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Work Order Number: ${number} has been closed.</p>
-<p>Problem: ${u_problem}</p>
-<p>Resolution: ${u_resolution}</p>
+        <message_html><![CDATA[<p>Resolution: ${u_resolution}</p>
+<p>Problem: ${u_problem}&nbsp;</p>
 <p>Site: ${u_requesting_building}</p>
 <p>Department: ${u_requesting_department}</p>
 <p>Room: ${u_location_room}</p>
 <p>Opened by: ${opened_by}</p>
 <p>Requested for: ${u_requested_for}</p>
 <p>Contact: ${u_key_contact}</p>
-<p>&nbsp;</p>]]></message_html>
+<p>&nbsp;</p>
+<p>Work Order Number: ${number} was closed by ${assigned_to} ${assignment_group}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Maint_WO.Closed</name>
@@ -55,7 +56,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Work Order  ${number} has been closed.</subject>
+        <subject>${number} has been closed.</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>BSHOEMAKER</sys_created_by>
@@ -63,7 +64,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3e810afd6f84d70013dd8ebf2c3ee446</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Maint_WO.Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -72,7 +73,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_3e810afd6f84d70013dd8ebf2c3ee446</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 16:00:43</sys_updated_on>
+        <sys_updated_on>2018-02-05 18:28:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
