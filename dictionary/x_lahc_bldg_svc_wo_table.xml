@@ -14,7 +14,6 @@
         <element label="Cost Center" max_length="32" name="u_cost_center" reference="cmn_cost_center" type="reference"/>
         <element label="Failure" max_length="40" name="u_failure" type="string"/>
         <element label="Job Type" max_length="32" name="u_job_type" reference="x_lahc_bldg_svc_wo_job_type" type="reference"/>
-        <element label="Work Order Notes (private)" max_length="4000" name="u_journal_3" type="journal"/>
         <element label="Contact" max_length="32" name="u_key_contact" reference="sys_user" type="reference"/>
         <element label="Labor" max_length="40" name="u_labor" read_only="true" type="string"/>
         <element label="Location (Room)" max_length="1000" name="u_location_room" type="string"/>
@@ -34,6 +33,5 @@
         <element choice="3" default="Open" label="Work Order Status" max_length="32" name="u_wo_status" reference="x_lahc_bldg_svc_wo_status" type="reference">
             <choice/>
         </element>
-        <element label="Work Order Notes (private)" max_length="4000" name="work_order_notes" read_roles="x_lahc_bldg_svc_wo.user" type="journal"/>
     </element>
 </database>
