@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="content_page" unload_date="2018-02-03 03:43:26">
+<record_update node_type="content_page" unload_date="2018-02-05 00:57:29">
     <sys_portal action="delete_multiple" query="page=bb20e1136fa6760013dd8ebf2c3ee4a8">
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
@@ -16,7 +16,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>43bb669f6fa6760013dd8ebf2c3ee452</sys_id>
@@ -27,7 +27,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>47bb669f6fa6760013dd8ebf2c3ee452</sys_id>
@@ -38,7 +38,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>4fbb669f6fa6760013dd8ebf2c3ee451</sys_id>
@@ -49,7 +49,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>c3bb669f6fa6760013dd8ebf2c3ee452</sys_id>
@@ -60,7 +60,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">0fbb669f6fa6760013dd8ebf2c3ee451</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>cfbb669f6fa6760013dd8ebf2c3ee451</sys_id>
@@ -85,7 +85,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:15</sys_created_on>
                         <sys_id>53bb669f6fa6760013dd8ebf2c3ee454</sys_id>
@@ -96,7 +96,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:15</sys_created_on>
                         <sys_id>57bb669f6fa6760013dd8ebf2c3ee454</sys_id>
@@ -107,7 +107,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:15</sys_created_on>
                         <sys_id>5bbb669f6fa6760013dd8ebf2c3ee454</sys_id>
@@ -118,7 +118,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:15</sys_created_on>
                         <sys_id>d3bb669f6fa6760013dd8ebf2c3ee454</sys_id>
@@ -129,7 +129,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:15">13bb669f6fa6760013dd8ebf2c3ee454</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:15</sys_created_on>
                         <sys_id>d7bb669f6fa6760013dd8ebf2c3ee454</sys_id>
@@ -154,7 +154,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>43bb669f6fa6760013dd8ebf2c3ee453</sys_id>
@@ -165,7 +165,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>47bb669f6fa6760013dd8ebf2c3ee453</sys_id>
@@ -176,7 +176,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>c3bb669f6fa6760013dd8ebf2c3ee453</sys_id>
@@ -187,7 +187,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>c7bb669f6fa6760013dd8ebf2c3ee453</sys_id>
@@ -198,7 +198,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 05-10-2017 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
+                        <portal_section display_value="Created 2017-05-10 23:30:14">8fbb669f6fa6760013dd8ebf2c3ee452</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-05-11 03:30:14</sys_created_on>
                         <sys_id>cfbb669f6fa6760013dd8ebf2c3ee452</sys_id>

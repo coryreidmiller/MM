@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Maintenance Work Orders" max_length="40" name="x_lahc_bldg_svc_wo_table" sizeclass="527248" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Maintenance Work Orders" max_length="40" name="x_lahc_bldg_svc_wo_table" sizeclass="527265" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Dept. Number" max_length="40" name="dept_number" read_only="true" type="string"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=procedure;type,ref_ac_order_by=procedure,ref_ac_columns_search=true" label="Procedure / Job type" max_length="32" name="pm_procedure" reference="x_lahc_bldg_svc_wo_pm_procedure" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Tag Description" max_length="40" name="tag_description" read_only="true" type="string"/>
