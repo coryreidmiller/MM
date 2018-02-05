@@ -34,13 +34,13 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Problem: ${u_problem}</p>
-<p>Site: ${u_requesting_building}</p>
-<p>Department: ${u_requesting_department}</p>
 <p>Room: ${u_location_room}</p>
+<p>Department: ${u_requesting_department}</p>
+<p>Site: ${u_requesting_building}</p>
 <p>Opened by: ${opened_by}</p>
 <p>Requested for: ${u_requested_for}</p>
 <p>Contact: ${u_key_contact}</p>
-<p>&nbsp;Phone: ${u_contact}</p>
+<p>Phone: ${u_contact}</p>
 <p>&nbsp;</p>
 <p>Work Order Number: ${number} has been assigned to:</p>
 <p>${assigned_to}&nbsp;${assignment_group}</p>]]></message_html>
@@ -65,7 +65,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ab100e716fc4d70013dd8ebf2c3ee43c</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Maint_WO.Assigned_to</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -74,7 +74,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_ab100e716fc4d70013dd8ebf2c3ee43c</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-05 18:30:35</sys_updated_on>
+        <sys_updated_on>2018-02-05 18:41:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
