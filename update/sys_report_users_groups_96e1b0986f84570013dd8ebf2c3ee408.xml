@@ -2,7 +2,7 @@
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="MMW Unassigned CMs and PMs SJ ">dee1b0986f84570013dd8ebf2c3ee407</report_id>
+        <report_id display_value="MMW Unassigned CMs SJ ">dee1b0986f84570013dd8ebf2c3ee407</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>CRMILLER</sys_created_by>
         <sys_created_on>2018-01-29 20:41:32</sys_created_on>
