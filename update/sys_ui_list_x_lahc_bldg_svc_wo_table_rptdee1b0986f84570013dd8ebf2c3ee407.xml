@@ -4,92 +4,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">fa6e6df06f04970013dd8ebf2c3ee40c</list_id>
+            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">2a2fe55e6f8cd70013dd8ebf2c3ee4d6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
-            <sys_id>fe6e6df06f04970013dd8ebf2c3ee40c</sys_id>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
+            <sys_id>2e2fe55e6f8cd70013dd8ebf2c3ee4d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_work_order_type</element>
-            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">fa6e6df06f04970013dd8ebf2c3ee40c</list_id>
+            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">2a2fe55e6f8cd70013dd8ebf2c3ee4d6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
-            <sys_id>726e6df06f04970013dd8ebf2c3ee40d</sys_id>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
+            <sys_id>ae2fe55e6f8cd70013dd8ebf2c3ee4d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_problem</element>
-            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">fa6e6df06f04970013dd8ebf2c3ee40c</list_id>
+            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">2a2fe55e6f8cd70013dd8ebf2c3ee4d6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
-            <sys_id>f26e6df06f04970013dd8ebf2c3ee40d</sys_id>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
+            <sys_id>222fe55e6f8cd70013dd8ebf2c3ee4d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>opened_at</element>
-            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">fa6e6df06f04970013dd8ebf2c3ee40c</list_id>
+            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">2a2fe55e6f8cd70013dd8ebf2c3ee4d6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
-            <sys_id>766e6df06f04970013dd8ebf2c3ee40d</sys_id>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
+            <sys_id>a22fe55e6f8cd70013dd8ebf2c3ee4d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assignment_group</element>
-            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">fa6e6df06f04970013dd8ebf2c3ee40c</list_id>
+            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">2a2fe55e6f8cd70013dd8ebf2c3ee4d6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
-            <sys_id>f66e6df06f04970013dd8ebf2c3ee40d</sys_id>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
+            <sys_id>262fe55e6f8cd70013dd8ebf2c3ee4d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">fa6e6df06f04970013dd8ebf2c3ee40c</list_id>
+            <list_id display_value="x_lahc_bldg_svc_wo_table" element="NULL" name="x_lahc_bldg_svc_wo_table" parent="NULL" relationship="NULL" sys_domain="global" view="6ae1b0986f84570013dd8ebf2c3ee40a">2a2fe55e6f8cd70013dd8ebf2c3ee4d6</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
-            <sys_id>7a6e6df06f04970013dd8ebf2c3ee40d</sys_id>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
+            <sys_id>a62fe55e6f8cd70013dd8ebf2c3ee4d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,10 +103,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>CRMILLER</sys_created_by>
-            <sys_created_on>2018-01-31 14:22:51</sys_created_on>
+            <sys_created_on>2018-02-05 06:17:00</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>fa6e6df06f04970013dd8ebf2c3ee40c</sys_id>
+            <sys_id>2a2fe55e6f8cd70013dd8ebf2c3ee4d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_lahc_bldg_svc_wo_table</sys_name>
             <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -115,7 +115,7 @@
             <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
             <sys_update_name>sys_ui_list_x_lahc_bldg_svc_wo_table_RPTdee1b0986f84570013dd8ebf2c3ee407</sys_update_name>
             <sys_updated_by>CRMILLER</sys_updated_by>
-            <sys_updated_on>2018-01-31 14:22:51</sys_updated_on>
+            <sys_updated_on>2018-02-05 06:17:00</sys_updated_on>
             <sys_user/>
             <view display_value="Rptdee1b0986f84570013dd8ebf2c3ee407" name="RPTdee1b0986f84570013dd8ebf2c3ee407">6ae1b0986f84570013dd8ebf2c3ee40a</view>
             <view_name/>

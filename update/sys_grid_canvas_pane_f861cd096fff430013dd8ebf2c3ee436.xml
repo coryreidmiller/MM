@@ -3,7 +3,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA MAIN">c3346c016fff430013dd8ebf2c3ee4a7</grid_canvas>
         <height>7</height>
-        <portal_widget display_value="Created 2018-01-19 14:28:54">f061cd096fff430013dd8ebf2c3ee435</portal_widget>
+        <portal_widget display_value="Created 01-19-2018 14:28:54">f061cd096fff430013dd8ebf2c3ee435</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

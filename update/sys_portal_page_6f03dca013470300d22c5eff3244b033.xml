@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-02-05 00:57:16">
+<record_update node_type="sys_portal_page" unload_date="2018-02-05 06:23:08">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -40,7 +40,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>028358e013470300d22c5eff3244b01d</sys_id>
@@ -51,7 +51,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>068358e013470300d22c5eff3244b01c</sys_id>
@@ -62,7 +62,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>428358e013470300d22c5eff3244b01c</sys_id>
@@ -73,7 +73,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>4e8358e013470300d22c5eff3244b01c</sys_id>
@@ -84,7 +84,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>8a8358e013470300d22c5eff3244b01c</sys_id>
@@ -95,7 +95,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>c28358e013470300d22c5eff3244b01d</sys_id>
@@ -106,7 +106,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2017-12-11 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
+                        <portal_section display_value="Created 12-11-2017 15:04:31">028358e013470300d22c5eff3244b01c</portal_section>
                         <sys_created_by>CRMILLER</sys_created_by>
                         <sys_created_on>2017-12-11 20:04:31</sys_created_on>
                         <sys_id>c68358e013470300d22c5eff3244b01c</sys_id>
