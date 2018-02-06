@@ -45,8 +45,8 @@
         <order/>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups>85d2c16e6f801b0013dd8ebf2c3ee479,578a9e5a6fccd70013dd8ebf2c3ee427</recipient_groups>
-        <recipient_users/>
+        <recipient_groups name="Maintenance Manager">85d2c16e6f801b0013dd8ebf2c3ee479</recipient_groups>
+        <recipient_users>64c0bfbcacc95000ac148fcc9e538065</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -59,7 +59,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>ed50c2ee6fc01b0013dd8ebf2c3ee4fb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Maint_WO.no_Assignment_group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
         <sys_update_name>sysevent_email_action_ed50c2ee6fc01b0013dd8ebf2c3ee4fb</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-06 13:55:42</sys_updated_on>
+        <sys_updated_on>2018-02-06 14:08:57</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
