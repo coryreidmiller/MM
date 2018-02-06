@@ -2,15 +2,12 @@
 <record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_lahc_bldg_svc_wo_table</collection>
-        <condition table="x_lahc_bldg_svc_wo_table">u_requested_forNSAMEASassigned_to^u_key_contactNSAMEASassigned_to^opened_byNSAMEASassigned_to^u_work_order_type=68322c626fc5320013dd8ebf2c3ee4ef^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="NSAMEAS" or="false" value="assigned_to"/>
-            <item endquery="false" field="u_key_contact" goto="false" newquery="false" operator="NSAMEAS" or="false" value="assigned_to"/>
-            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="NSAMEAS" or="false" value="assigned_to"/>
-            <item display_table="x_lahc_bldg_svc_wo_work_order_type" display_value="Corrective Maintenance" endquery="false" field="u_work_order_type" goto="false" newquery="false" operator="=" or="false" value="68322c626fc5320013dd8ebf2c3ee4ef"/>
+        <condition table="x_lahc_bldg_svc_wo_table">assignment_groupISEMPTY^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -40,38 +37,38 @@
 <p>Requested for: ${u_requested_for}</p>
 <p>Contact: ${u_key_contact}</p>
 <p>Phone: ${u_contact}</p>
-<p>${number} was opened and assigned to ${assignment_group}</p>]]></message_html>
+<p>${number} has been assigned to ${assignment_group}</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Maint_WO.Opened</name>
+        <name>Maint_WO.no_Assignment_group</name>
         <omit_watermark>false</omit_watermark>
         <order/>
         <push_message_only>false</push_message_only>
-        <recipient_fields>watch_list,u_key_contact,u_requested_for</recipient_fields>
-        <recipient_groups name="Maintenance Notifications">578a9e5a6fccd70013dd8ebf2c3ee427</recipient_groups>
+        <recipient_fields/>
+        <recipient_groups name="Maintenance Manager">85d2c16e6f801b0013dd8ebf2c3ee479</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Work Order  ${number} opened.</subject>
+        <subject>${number} NO ASSIGNMENT GRP</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
-        <sys_created_by>BSHOEMAKER</sys_created_by>
-        <sys_created_on>2018-02-03 17:31:43</sys_created_on>
+        <sys_created_by>CRMILLER</sys_created_by>
+        <sys_created_on>2018-02-06 02:10:30</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>7525b1fd6f84d70013dd8ebf2c3ee4ef</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Maint_WO.Opened</sys_name>
+        <sys_id>ed50c2ee6fc01b0013dd8ebf2c3ee4fb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Maint_WO.no_Assignment_group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bldg Svc WO" source="x_lahc_bldg_svc_wo">b01326826f81320013dd8ebf2c3ee41e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Bldg Svc WO">b01326826f81320013dd8ebf2c3ee41e</sys_scope>
-        <sys_update_name>sysevent_email_action_7525b1fd6f84d70013dd8ebf2c3ee4ef</sys_update_name>
+        <sys_update_name>sysevent_email_action_ed50c2ee6fc01b0013dd8ebf2c3ee4fb</sys_update_name>
         <sys_updated_by>CRMILLER</sys_updated_by>
-        <sys_updated_on>2018-02-06 02:15:39</sys_updated_on>
+        <sys_updated_on>2018-02-06 02:21:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
